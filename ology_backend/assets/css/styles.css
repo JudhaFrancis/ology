@@ -3611,6 +3611,10 @@ i#search-btn{
   background-color: #eee;
 }
 
+.gallery-item{
+  padding: 10px;
+}
+
 .gallery_box{
   border-radius: 20px;
   border: 1px solid #000;

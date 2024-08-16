@@ -51,58 +51,74 @@
     </div>
     <div class="container text-center mt-5">
     <?php
-    // Number of items per page
-    $itemsPerPage = 6;
+// Number of items per page
+$itemsPerPage = 6;
 
-    // Total number of items
-    $totalItems = count($Data);
+// Total number of items
+$totalItems = count($Data);
 
-    // Calculate total pages required
-    $totalPages = ceil($totalItems / $itemsPerPage);
+// Calculate total pages required
+$totalPages = ceil($totalItems / $itemsPerPage);
 
-    // Get current page from query parameter, default to 1 if not set
-    $currentPage = isset($_GET['page']) ? (int)$_GET['page'] : 1;
+// Get current page from query parameter, default to 1 if not set
+$currentPage = isset($_GET['page']) ? (int)$_GET['page'] : 1;
 
-    // Ensure current page is within bounds
-    $currentPage = max(1, min($currentPage, $totalPages));
+// Ensure current page is within bounds
+$currentPage = max(1, min($currentPage, $totalPages));
 
-    // Pass the pagination data to JavaScript
-    echo "<script>const totalPages = $totalPages; const currentPage = $currentPage;</script>";
+// Pass the pagination data to JavaScript
+echo "<script>const totalPages = $totalPages; const currentPage = $currentPage;</script>";
+?>
+<div class="row justify-content-center g-lg-4">
+    <?php 
+    // Calculate the start and end indices for the current page
+    $start = ($currentPage - 1) * $itemsPerPage;
+    $end = min($start + $itemsPerPage, $totalItems);
+
+    // Display only the items for the current page
+    for ($index = $start; $index < $end; $index++) { 
+        $item = $Data[$index];
     ?>
-    <div class="row justify-content-center g-lg-4">
-        <?php 
-        // Calculate the start and end indices for the current page
-        $start = ($currentPage - 1) * $itemsPerPage;
-        $end = min($start + $itemsPerPage, $totalItems);
-
-        // Display only the items for the current page
-        for ($index = $start; $index < $end; $index++) { 
-            $item = $Data[$index];
-        ?>
-        <div class="col-lg-6 col-xl-4">
-            <div class="gallery_box" style="height:450px">
-                <h1 class="art-h mb-3"><?php echo $item['title']; ?></h1>
-                <a href="gallery/<?php echo $item['id']; ?>">
-                    <img class="girls-week" src="<?php echo BASEURL ?>assets/gallery/<?php echo $item['photo']; ?>" />
-                </a>
-                <a href="gallery/<?php echo $item['id']; ?>">
-                    <button class="btn-sec mt-4">view more</button>
-                </a>
-            </div>
+    <div class="col-lg-6 col-xl-4">
+        <div class="gallery_box" style="height:450px">
+            <h1 class="art-h mb-3"><?php echo $item['title']; ?></h1>
+            <a href="gallery/<?php echo $item['id']; ?>">
+                <img class="girls-week" src="<?php echo BASEURL ?>assets/gallery/<?php echo $item['photo']; ?>" />
+            </a>
+            <a href="gallery/<?php echo $item['id']; ?>">
+                <button class="btn-sec mt-4">view more</button>
+            </a>
         </div>
-        <?php } ?>
     </div>
+    <?php } ?>
+</div>
 
-    <!-- Pagination Controls -->
-    <div class="pagination-controls">
-        <?php if ($totalPages > 1): ?>
-            <?php for ($i = 1; $i <= $totalPages; $i++): ?>
-                <a href="?page=<?php echo $i; ?>" class="pagination-button <?php if ($i == $currentPage) echo 'active'; ?>">
-                    <?php echo $i; ?>
-                </a>
-            <?php endfor; ?>
+<!-- Pagination Controls -->
+<div class="pagination-controls">
+    <?php if ($totalPages > 1): ?>
+        <!-- Previous Button -->
+        <?php if ($currentPage > 1): ?>
+            <a href="?page=<?php echo $currentPage - 1; ?>" style="padding-right:10px"> <i class="fas fa-chevron-left"></i> </a>
+        <?php else: ?>
+            <span class="disabled" style="padding-right:10px"> <i class="fas fa-chevron-left"></i> </span>
         <?php endif; ?>
-    </div>
+
+        <!-- Page Number Buttons -->
+        <?php for ($i = 1; $i <= $totalPages; $i++): ?>
+            <a href="?page=<?php echo $i; ?>" class="pagination-button <?php if ($i == $currentPage) echo 'active'; ?>">
+                <?php echo $i; ?>
+            </a>
+        <?php endfor; ?>
+
+        <!-- Next Button -->
+        <?php if ($currentPage < $totalPages): ?>
+            <a href="?page=<?php echo $currentPage + 1; ?>" style="padding-left:10px"> <i class="fas fa-chevron-right"></i> </a>
+        <?php else: ?>
+            <span class="disabled" style="padding-left:10px"> <i class="fas fa-chevron-right"></i> </span>
+        <?php endif; ?>
+    <?php endif; ?>
+</div>
+
 </div>
 
 

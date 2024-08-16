@@ -39,83 +39,71 @@
       </div>
     </div>
   </div>
-  <div class="row">
+  <?php
+// Number of items per page
+$itemsPerPage = 6;
+
+// Total number of images
+$totalImages = count($reqData['gallery_img']);
+
+// Calculate total pages required
+$totalPages = ceil($totalImages / $itemsPerPage);
+
+// Get current page from query parameter, default to 1 if not set
+$currentPage = isset($_GET['page']) ? (int)$_GET['page'] : 1;
+
+// Ensure current page is within bounds
+$currentPage = max(1, min($currentPage, $totalPages));
+
+// Calculate the start and end indices for the current page
+$start = ($currentPage - 1) * $itemsPerPage;
+$end = min($start + $itemsPerPage, $totalImages);
+?>
+
+<div class="row">
     <div class="col-lg-12 text-center">
-      <video width="80%" class="test-vid" controls loop muted>
-        <source src="<?php echo BASEURL ?>assets\gallery\<?php echo $reqData['video']; ?>" type="video/mp4">
-      </video>
+        <video width="80%" class="test-vid" controls loop muted>
+            <source src="<?php echo BASEURL ?>assets/gallery/<?php echo $reqData['video']; ?>" type="video/mp4">
+        </video>
     </div>
-  </div>
-  <div class="container text-center mt-5">
-    <?php
-    // Number of images per page
-    $imagesPerPage = 6;
+</div>
 
-    // Total number of images
-    $totalImages = count($reqData['gallery_img']);
-
-    // Calculate total pages required
-    $totalPages = ceil($totalImages / $imagesPerPage);
-
-    // Pass the pagination data to JavaScript
-    echo "<script>const totalPages = $totalPages;</script>";
-    ?>
-    <div class="row justify-content-center g-lg-4 gallery_box">
-
-      <?php foreach ($reqData['gallery_img'] as $index => $images) { ?>
-        <div class="col-lg-4 gallery-item" style="display: <?php echo $index < $imagesPerPage ? 'block' : 'none'; ?>;">
-          <img class="gallery_images" src="<?php echo BASEURL ?>assets/gallery/<?php echo $images['images']; ?>" />
-        </div>
-      <?php } ?>
-      <div class="pagination-controls">
-        <a href="javascript:void(0);" class="pagination-button" id="prev-button" onclick="prevPage()">Previous</a>
-        <a href="javascript:void(0);" class="pagination-button" id="next-button" onclick="nextPage()">Next</a>
-      </div>
+<div class="container text-center mt-5">
+    <div class="row justify-content-center g-lg-4 gallery_box" style="padding-bottom:44px">
+        <?php for ($index = $start; $index < $end; $index++) {
+            $image = $reqData['gallery_img'][$index];
+        ?>
+            <div class="col-lg-4 gallery-item">
+                <img class="gallery_images" src="<?php echo BASEURL ?>assets/gallery/<?php echo $image['images']; ?>" />
+            </div>
+        <?php } ?>
     </div>
 
+    <!-- Pagination Controls -->
+    <div class="pagination-controls mt-4">
+        <?php if ($totalPages > 1): ?>
+            <!-- Previous Button -->
+            <?php if ($currentPage > 1): ?>
+                <a href="?page=<?php echo $currentPage - 1; ?>" style="padding-right:10px"> <i class="fas fa-chevron-left"></i> </a>
+            <?php else: ?>
+                <span class="disabled" style="padding-right:10px"> <i class="fas fa-chevron-left"></i> </span>
+            <?php endif; ?>
 
-  </div>
+            <!-- Page Number Buttons -->
+            <?php for ($i = 1; $i <= $totalPages; $i++): ?>
+                <a href="?page=<?php echo $i; ?>" class="pagination-button <?php if ($i == $currentPage) echo 'active'; ?>">
+                    <?php echo $i; ?>
+                </a>
+            <?php endfor; ?>
 
-</body>
+            <!-- Next Button -->
+            <?php if ($currentPage < $totalPages): ?>
+                <a href="?page=<?php echo $currentPage + 1; ?>" style="padding-left:10px"> <i class="fas fa-chevron-right"></i> </a>
+            <?php else: ?>
+                <span class="disabled" style="padding-left:10px"> <i class="fas fa-chevron-right"></i> </span>
+            <?php endif; ?>
+        <?php endif; ?>
+    </div>
+</div>
 
-<script>
-  let currentPage = 1;
-  const imagesPerPage = <?php echo $imagesPerPage; ?>;
 
-  function displayImages(page) {
-    currentPage = page;
-    const start = (page - 1) * imagesPerPage;
-    const end = start + imagesPerPage;
-    let totalDisplayed = 0;
-
-    document.querySelectorAll('.gallery-item').forEach((element, index) => {
-      if (index >= start && index < end) {
-        element.style.display = 'block';
-        totalDisplayed++;
-      } else {
-        element.style.display = 'none';
-      }
-    });
-
-    // Update pagination controls visibility
-    document.getElementById('prev-button').style.display = (currentPage > 1) ? 'inline-block' : 'none';
-    document.getElementById('next-button').style.display = (totalDisplayed < imagesPerPage || currentPage >= totalPages) ? 'none' : 'inline-block';
-  }
-
-  function prevPage() {
-    if (currentPage > 1) {
-      displayImages(currentPage - 1);
-    }
-  }
-
-  function nextPage() {
-    if (currentPage < totalPages) {
-      displayImages(currentPage + 1);
-    }
-  }
-
-  // Initialize gallery display on page load
-  document.addEventListener("DOMContentLoaded", function() {
-    displayImages(currentPage);
-  });
-</script>

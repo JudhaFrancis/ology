@@ -121,116 +121,132 @@
     </div>
   </div>
 
-  <div class="container" style="padding-bottom: 0px;">
-    <?php
-    usort($Data, function ($a, $b) {
-      return strtotime($b['published_date']) - strtotime($a['published_date']);
-    });
+  <?php
+// Number of blog posts per page
+$blogsPerPage = 8;
 
-    $recentData = array_slice($Data, 0, 1);
-    ?>
-    <div class="row ">
-      <?php foreach ($recentData as $item) { ?>
-        <div class="col-md-7">
-          <a href="blog_details/<?php echo $item['id']; ?>">
-            <h2 class="blog-title"><?php echo $item['title']; ?></h2>
-          </a>
-          <div class="mostrecent_blog_detail">
-            <span><?php echo date('d M, Y', strtotime($item['published_date'])); ?></span>
-            <span style="float:right;padding-left: 20px;">by <?php echo $item['author']; ?></span>
-          </div>
-          <a href="blog_details/<?php echo $item['id']; ?>">
-            <img class="mt-4 mostrecent_blog_img" src="<?php echo BASEURL ?>assets/blog/<?php echo $item['photo']; ?>">
-          </a>
-        </div>
-      <?php } ?>
-      <div class="col-md-1"></div>
-      <div class="col-md-4 recent-blogs " style="margin-top: 20px;margin-bottom: 20px;">
-        <h3 class="blog-title1">Recent blogs</h3>
-        <?php
-        usort($Data, function ($a, $b) {
-          return strtotime($b['published_date']) - strtotime($a['published_date']);
-        });
+// Total number of blog posts
+$totalBlogs = count($Data);
 
-        $recentFiveData = array_slice($Data, 0, 5);
-        ?>
+// Calculate total pages required
+$totalPages = ceil($totalBlogs / $blogsPerPage);
 
-        <ul>
-          <?php foreach ($recentFiveData as $item) { ?>
-            <li class="align-items-center">
-              <div class="image-box">
-                <a href="blog_details/<?php echo $item['id']; ?>">
-                  <img src="<?php echo BASEURL ?>assets/blog/<?php echo $item['photo']; ?>" />
-                </a>
-              </div>
-              <div class="recent_blog_title">
-                <a href="blog_details/<?php echo $item['id']; ?>">
-                  <?php echo $item['title']; ?>
-                </a>
-                <br>
-                <div class="recent_blog_detail">
-                  <span><?php echo date('d M, Y', strtotime($item['published_date'])); ?></span>
-                  <span style="float:right;padding-left: 20px;">by <?php echo $item['author']; ?></span>
-                </div>
-              </div>
-            </li>
-          <?php } ?>
-        </ul>
-      </div>
-    </div>
+// Get current page from query parameter, default to 1 if not set
+$currentPage = isset($_GET['page']) ? (int)$_GET['page'] : 1;
+
+// Ensure current page is within bounds
+$currentPage = max(1, min($currentPage, $totalPages));
+
+// Calculate the start and end indices for the current page
+$start = ($currentPage - 1) * $blogsPerPage;
+$end = min($start + $blogsPerPage, $totalBlogs);
+
+// Sort data by most recent
+usort($Data, function ($a, $b) {
+    return strtotime($b['published_date']) - strtotime($a['published_date']);
+});
+
+// Slice the most recent blog for display
+$recentData = array_slice($Data, 0, 1);
+
+// Slice the top five recent blogs
+$recentFiveData = array_slice($Data, 0, 5);
+
+// Slice data for the current page
+$paginatedBlogs = array_slice($Data, $start, $blogsPerPage);
+?>
+
+<div class="container" style="padding-bottom: 0px;">
+    <!-- Most Recent Blog Section -->
     <div class="row">
-      <?php
-      $itemsPerPage = 8; // Number of items per page
-      $totalItems = count($Data); // Total number of items
-      $totalPages = ceil($totalItems / $itemsPerPage); // Calculate total number of pages
-
-      $currentPage = isset($_GET['page']) ? (int)$_GET['page'] : 1; // Get current page from URL, default is 1
-      $currentPage = max(1, min($currentPage, $totalPages)); // Ensure current page is within valid range
-
-      $offset = ($currentPage - 1) * $itemsPerPage; // Calculate the offset for the current page
-      $paginatedData = array_slice($Data, $offset, $itemsPerPage); // Slice the data array to get only the items for the current page
-
-      usort($paginatedData, function ($a, $b) {
-        return strtotime($b['published_date']) - strtotime($a['published_date']);
-      });
-
-      $firstItemSkipped = false;
-      foreach ($paginatedData as $index => $item) {
-        if (!$firstItemSkipped) {
-          $firstItemSkipped = true;
-          continue;
-        }
-      ?>
-        <div class="col-lg-4 col-md-6 col-xl-3">
-          <a href="blog_details/<?php echo $item['id']; ?>">
-            <div class="blog-box">
-              <div class="blog-image-wrapper">
-                <img class="blog_image" src="<?php echo BASEURL ?>assets/blog/<?php echo $item['photo']; ?>" />
-              </div>
-              <div class="blog-box_content">
-                <div class="blog_title"><?php echo $item['title']; ?></div>
-                <p class="blog_author">by <?php echo $item['author']; ?></p>
-              </div>
+        <?php foreach ($recentData as $item) { ?>
+            <div class="col-md-7">
+                <a href="blog_details/<?php echo $item['id']; ?>">
+                    <h2 class="blog-title"><?php echo $item['title']; ?></h2>
+                </a>
+                <div class="mostrecent_blog_detail">
+                    <span><?php echo date('d M, Y', strtotime($item['published_date'])); ?></span>
+                    <span style="float:right;padding-left: 20px;">by <?php echo $item['author']; ?></span>
+                </div>
+                <a href="blog_details/<?php echo $item['id']; ?>">
+                    <img class="mt-4 mostrecent_blog_img" src="<?php echo BASEURL ?>assets/blog/<?php echo $item['photo']; ?>">
+                </a>
             </div>
-          </a>
+        <?php } ?>
+        <div class="col-md-1"></div>
+        <div class="col-md-4 recent-blogs" style="margin-top: 20px;margin-bottom: 20px;">
+            <h3 class="blog-title1">Recent blogs</h3>
+            <ul>
+                <?php foreach ($recentFiveData as $item) { ?>
+                    <li class="align-items-center">
+                        <div class="image-box">
+                            <a href="blog_details/<?php echo $item['id']; ?>">
+                                <img src="<?php echo BASEURL ?>assets/blog/<?php echo $item['photo']; ?>" />
+                            </a>
+                        </div>
+                        <div class="recent_blog_title">
+                            <a href="blog_details/<?php echo $item['id']; ?>">
+                                <?php echo $item['title']; ?>
+                            </a>
+                            <br>
+                            <div class="recent_blog_detail">
+                                <span><?php echo date('d M, Y', strtotime($item['published_date'])); ?></span>
+                                <span style="float:right;padding-left: 20px;">by <?php echo $item['author']; ?></span>
+                            </div>
+                        </div>
+                    </li>
+                <?php } ?>
+            </ul>
         </div>
-      <?php
-      }
-      ?>
+    </div>
+
+    <!-- Paginated Blog Posts Section -->
+    <div class="row">
+        <?php foreach ($paginatedBlogs as $item) { ?>
+            <div class="col-lg-4 col-md-6 col-xl-3">
+                <a href="blog_details/<?php echo $item['id']; ?>">
+                    <div class="blog-box">
+                        <div class="blog-image-wrapper">
+                            <img class="blog_image" src="<?php echo BASEURL ?>assets/blog/<?php echo $item['photo']; ?>" />
+                        </div>
+                        <div class="blog-box_content">
+                            <div class="blog_title"><?php echo $item['title']; ?></div>
+                            <p class="blog_author">by <?php echo $item['author']; ?></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        <?php } ?>
     </div>
 
     <!-- Pagination Controls -->
-    <div class="pagination-controls">
-      <?php if ($totalPages > 1): ?>
-        <?php for ($i = 1; $i <= $totalPages; $i++): ?>
-          <a href="?page=<?php echo $i; ?>" class="pagination-button <?php if ($i == $currentPage) echo 'active'; ?>">
-            <?php echo $i; ?>
-          </a>
-        <?php endfor; ?>
-      <?php endif; ?>
-    </div>
+    <div class="pagination-controls mt-4">
+        <?php if ($totalPages > 1): ?>
+            <!-- Previous Button -->
+            <?php if ($currentPage > 1): ?>
+                <a href="?page=<?php echo $currentPage - 1; ?>" style="padding-right:10px"> <i class="fas fa-chevron-left"></i> </a>
+            <?php else: ?>
+                <span class="disabled" style="padding-right:10px"> <i class="fas fa-chevron-left"></i> </span>
+            <?php endif; ?>
 
-  </div>
+            <!-- Page Number Buttons -->
+            <?php for ($i = 1; $i <= $totalPages; $i++): ?>
+                <a href="?page=<?php echo $i; ?>" class="pagination-button <?php if ($i == $currentPage) echo 'active'; ?>">
+                    <?php echo $i; ?>
+                </a>
+            <?php endfor; ?>
+
+            <!-- Next Button -->
+            <?php if ($currentPage < $totalPages): ?>
+                <a href="?page=<?php echo $currentPage + 1; ?>" style="padding-left:10px"> <i class="fas fa-chevron-right"></i> </a>
+            <?php else: ?>
+                <span class="disabled" style="padding-left:10px"> <i class="fas fa-chevron-right"></i> </span>
+            <?php endif; ?>
+        <?php endif; ?>
+    </div>
+</div>
+
+
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
 
