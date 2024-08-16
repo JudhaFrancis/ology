@@ -78,36 +78,25 @@ class Gallery extends CI_Controller
             'description' => $this->input->post('description', true),
          ];
 
-         // Upload image if available
+         // Upload image if availablevb
          if (!empty($_FILES['photo']['name'])) {
-            $uploadPhoto = $this->gallery->uploadImage();
-            $data['photo'] = $uploadPhoto;
+            $upload = $this->gallery->uploadImage();
+            $data['photo'] = $upload;
          }
-
-         // Upload video if available
+         
          if (!empty($_FILES['video']['name'])) {
-            $uploadVideo = $this->gallery->uploadVideo();
-            $data['video'] = $uploadVideo;
+            $upload_video = $this->gallery->uploadVideo();
+            $data['video'] = $upload_video;
          }
          if (!empty($_FILES['images']['name'])) {
-            $uploadImage = $this->gallery_img->uploadImages();
-            $data['images'] = $uploadImage;
-            print_r($data);
+            $upload_video = $this->gallery->uploadImages();
+            $data['images'] = $upload_video;
          }
 
-         $gallery_fk_id = $this->my->insert($data);
+         
 
-         $tableData = json_decode($this->input->post('tableData', true), true);
+          $this->my->save($data);
 
-         foreach ($tableData as $tableDataRow) {
-            $galleryimgData = [
-               'gallery_fk_id' => $gallery_fk_id,
-            ];
-
-            // Upload photo if available for each row in the table data
-
-            $this->gallery_img->uploadImages($galleryimgData);
-         }
 
          $this->session->set_flashdata('success', 'Post Added Successfully.');
          redirect(base_url('admin/gallery'));

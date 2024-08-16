@@ -81,7 +81,7 @@
                     </div>
 
                     <div class="form-group row py-3">
-                        <label for="photo" class="col-sm-2 col-form-label">Image</label>
+                        <label for="photo" class="col-sm-2 col-form-label">Event Image</label>
                         <div class="col-sm-10">
                             <?= form_upload('photo', '', ['id' => 'photo']) ?>
                             <?php if ($this->session->flashdata('image_error')): ?>
@@ -119,39 +119,40 @@
                     </div>
 
                     <div class="form-group row py-3">
-                        <label for="photos" class="col-sm-2 col-form-label">Images</label>
+                        <label for="images" class="col-sm-2 col-form-label">Images</label>
                         <div class="col-sm-10">
-                            <?= form_upload('images[]', '', ['id' => 'photos', 'multiple' => true, 'accept' => 'image/*']) ?>
+                            <?= form_upload('images[]', '', ['id' => 'images', 'multiple' => true, 'accept' => 'image/*']) ?>
                             <?php if ($this->session->flashdata('image_error')): ?>
                                 <small class="form-text text-danger"><?= $this->session->flashdata('image_error') ?></small>
                             <?php endif ?>
                         </div>
-
-                        <br>
-                        <!-- Images Preview -->
-                        <div id="images-preview" style="padding-top: 20px;"></div>
-                        <!-- Buttons -->
-                        <button type="button" id="add-more-images" style="margin-top: 10px;">Add +</button>
-                        <button type="button" id="select-images" style="margin-top: 10px;">Select</button>
-                        <button type="button" id="remove-images" style="margin-top: 10px;">Remove</button>
-                        <!-- Hidden Input for Additional Images -->
-                        <input type="file" id="more-photos" name="photos[]" style="display: none;" multiple accept="image/*">
                     </div>
+
+                    <br>
+                    <!-- Images Preview -->
+                    <div id="images-preview" style="padding-top: 20px;"></div>
+                    <!-- Buttons -->
+                    <button type="button" id="add-more-images" style="margin-top: 10px;">Add +</button>
+                    <button type="button" id="select-images" style="margin-top: 10px;">Select</button>
+                    <button type="button" id="remove-images" style="margin-top: 10px;">Remove</button>
+                    <!-- Hidden Input for Additional Images -->
+                    <input type="file" id="more-images" name="images[]" style="display: none;" multiple accept="image/*">
                 </div>
-
-
-                <a href="<?= base_url('admin/posting') ?>" class="btn btn-sm btn-secondary">Back</a>
-                <button type="submit" class="btn btn-sm btn-primary float-right">Save</button>
-
-                <?= form_close() ?>
-
             </div>
 
-        </div>
-        <!-- End of Main Content -->
 
-        <!-- Footer -->
-        <?php $this->load->view('back/layouts/_footer') ?>
+            <a href="<?= base_url('admin/posting') ?>" class="btn btn-sm btn-secondary">Back</a>
+            <button type="submit" class="btn btn-sm btn-primary float-right">Save</button>
+
+            <?= form_close() ?>
+
+        </div>
+
+    </div>
+    <!-- End of Main Content -->
+
+    <!-- Footer -->
+    <?php $this->load->view('back/layouts/_footer') ?>
 
     </div>
     <!-- End of Content Wrapper -->
@@ -212,9 +213,9 @@
     let isSelectMode = false;
     let selectedImages = [];
 
-    document.getElementById('photos').addEventListener('change', event => previewImages(event.target.files));
-    document.getElementById('add-more-images').addEventListener('click', () => document.getElementById('more-photos').click());
-    document.getElementById('more-photos').addEventListener('change', event => previewImages(event.target.files));
+    document.getElementById('images').addEventListener('change', event => previewImages(event.target.files));
+    document.getElementById('add-more-images').addEventListener('click', () => document.getElementById('more-images').click());
+    document.getElementById('more-images').addEventListener('change', event => previewImages(event.target.files));
 
     document.getElementById('select-images').addEventListener('click', () => {
         isSelectMode = !isSelectMode;

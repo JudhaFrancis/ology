@@ -92,7 +92,6 @@ class Gallery extends CI_Controller
          if (!empty($_FILES['images']['name'])) {
             $uploadImage = $this->gallery_img->uploadImages();
             $data['images'] = $uploadImage;
-            print_r($data);
          }
 
          $gallery_fk_id = $this->my->insert($data);
