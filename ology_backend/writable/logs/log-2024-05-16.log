@@ -1,0 +1,146 @@
+CRITICAL - 2024-05-16 11:42:39 --> Undefined array key "member_fk_id"
+in APPPATH\Controllers\Become_a_member.php on line 43.
+ 1 APPPATH\Controllers\Become_a_member.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "member_fk_id"', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Controllers\\Become_a_member.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Become_a_member->profile('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Become_a_member))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-16 11:43:17 --> Undefined array key "member_fk_id"
+in APPPATH\Controllers\Become_a_member.php on line 43.
+ 1 APPPATH\Controllers\Become_a_member.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "member_fk_id"', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Controllers\\Become_a_member.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Become_a_member->profile('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Become_a_member))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-16 11:48:29 --> Undefined array key "fname"
+in APPPATH\Views\pages\header.php on line 124.
+ 1 APPPATH\Views\pages\header.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fname"', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Views\\pages\\header.php', 124)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Views\\pages\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/header', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('pages/header')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->login()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-16 11:48:31 --> Undefined array key "fname"
+in APPPATH\Views\pages\header.php on line 124.
+ 1 APPPATH\Views\pages\header.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fname"', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Views\\pages\\header.php', 124)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Views\\pages\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/header', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('pages/header')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->login()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-16 11:48:40 --> Undefined array key "fname"
+in APPPATH\Views\pages\header.php on line 124.
+ 1 APPPATH\Views\pages\header.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fname"', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Views\\pages\\header.php', 124)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Views\\pages\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/header', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('pages/header')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-16 11:55:39 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'img', 'menu_wrapper_img.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-16 11:55:55 --> Undefined variable $memData
+in APPPATH\Controllers\Events\E_learningController.php on line 60.
+ 1 APPPATH\Controllers\Events\E_learningController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $memData', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learningController.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learningController->speaker('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learningController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-16 11:55:59 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'img', 'menu_wrapper_img.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-16 12:06:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'img', 'menu_wrapper_img.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-16 12:06:22 --> Undefined variable $memData
+in APPPATH\Controllers\Events\E_learningController.php on line 60.
+ 1 APPPATH\Controllers\Events\E_learningController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $memData', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learningController.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learningController->speaker('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learningController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-16 12:06:27 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'img', 'menu_wrapper_img.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-16 12:06:39 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'img', 'menu_wrapper_img.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-16 12:08:30 --> Undefined variable $_SESSION
+in APPPATH\Controllers\Become_a_member.php on line 42.
+ 1 APPPATH\Controllers\Become_a_member.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Controllers\\Become_a_member.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Become_a_member->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Become_a_member))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-16 12:52:18 --> syntax error, unexpected identifier "ct", expecting "("
+in APPPATH\Controllers\Home.php on line 67.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Core\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Core\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\Core\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-16 12:52:23 --> syntax error, unexpected identifier "ct", expecting "("
+in APPPATH\Controllers\Home.php on line 67.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Core\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Core\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\Core\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-16 12:52:28 --> syntax error, unexpected identifier "ct", expecting "("
+in APPPATH\Controllers\Home.php on line 67.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('/', 'get')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('/')
+ 3 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('/')
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-16 12:52:40 --> syntax error, unexpected identifier "ct", expecting "("
+in APPPATH\Controllers\Home.php on line 67.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Core\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Core\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\Core\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-16 12:52:56 --> syntax error, unexpected identifier "ct", expecting "("
+in APPPATH\Controllers\Home.php on line 67.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('/', 'get')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('/')
+ 3 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('/')
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()

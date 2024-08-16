@@ -1,0 +1,124 @@
+CRITICAL - 2024-04-23 04:28:30 --> Undefined variable $data
+in APPPATH\Views\pages\events.php on line 73.
+ 1 APPPATH\Views\pages\events.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Views\\pages\\events.php', 73)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Views\\pages\\events.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/events', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('pages/events')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->events()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-23 04:35:31 --> Undefined variable $data
+in APPPATH\Views\pages\events.php on line 73.
+ 1 APPPATH\Views\pages\events.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Views\\pages\\events.php', 73)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Views\\pages\\events.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/events', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('pages/events')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->events()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-23 05:06:47 --> Undefined variable $data
+in APPPATH\Views\pages\events.php on line 73.
+ 1 APPPATH\Views\pages\events.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Views\\pages\\events.php', 73)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Views\\pages\\events.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/events', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('pages/events')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->events()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-23 11:13:49 --> Undefined variable $data
+in APPPATH\Views\pages\events.php on line 73.
+ 1 APPPATH\Views\pages\events.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Views\\pages\\events.php', 73)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Views\\pages\\events.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/events', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('pages/events')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->events()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-23 11:25:50 --> Undefined variable $data
+in APPPATH\Views\pages\events.php on line 73.
+ 1 APPPATH\Views\pages\events.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Views\\pages\\events.php', 73)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Views\\pages\\events.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/events', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('pages/events')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->events()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-23 11:28:18 --> Undefined variable $data
+in APPPATH\Views\pages\events.php on line 73.
+ 1 APPPATH\Views\pages\events.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Views\\pages\\events.php', 73)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Views\\pages\\events.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/events', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('pages/events')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->events()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-23 11:28:20 --> Undefined variable $data
+in APPPATH\Views\pages\events.php on line 73.
+ 1 APPPATH\Views\pages\events.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Views\\pages\\events.php', 73)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Views\\pages\\events.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/events', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('pages/events')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->events()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-23 11:28:21 --> Undefined variable $data
+in APPPATH\Views\pages\events.php on line 73.
+ 1 APPPATH\Views\pages\events.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Views\\pages\\events.php', 73)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Views\\pages\\events.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/events', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('pages/events')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->events()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-23 11:28:21 --> Undefined variable $data
+in APPPATH\Views\pages\events.php on line 73.
+ 1 APPPATH\Views\pages\events.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Views\\pages\\events.php', 73)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Views\\pages\\events.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/events', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('pages/events')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->events()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-23 11:28:28 --> Undefined variable $data
+in APPPATH\Views\pages\events.php on line 73.
+ 1 APPPATH\Views\pages\events.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Views\\pages\\events.php', 73)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Views\\pages\\events.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/events', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('pages/events')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->events()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-23 11:28:43 --> Undefined variable $memData
+in APPPATH\Controllers\Events\E_learningController.php on line 60.
+ 1 APPPATH\Controllers\Events\E_learningController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $memData', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learningController.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learningController->speaker('2')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learningController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-23 11:29:01 --> Undefined variable $memData
+in APPPATH\Controllers\Events\E_learningController.php on line 60.
+ 1 APPPATH\Controllers\Events\E_learningController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $memData', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learningController.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learningController->speaker('2')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learningController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()

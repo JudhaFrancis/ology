@@ -1,0 +1,529 @@
+INFO - 2024-07-26 10:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 10:47:45 --> Undefined variable $api
+in APPPATH\Views\pages\workshop.php on line 279.
+ 1 APPPATH\Views\pages\workshop.php(279): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\workshop.php', 279)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\workshop.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/workshop', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('pages/workshop')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->workshop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 10:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 10:48:52 --> Undefined variable $api
+in APPPATH\Views\pages\workshop.php on line 279.
+ 1 APPPATH\Views\pages\workshop.php(279): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\workshop.php', 279)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\workshop.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/workshop', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('pages/workshop')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->workshop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 10:49:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 10:49:41 --> Undefined variable $api
+in APPPATH\Views\pages\workshop.php on line 279.
+ 1 APPPATH\Views\pages\workshop.php(279): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\workshop.php', 279)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\workshop.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/workshop', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('pages/workshop')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->workshop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 10:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 10:49:43 --> Undefined variable $api
+in APPPATH\Views\pages\workshop.php on line 279.
+ 1 APPPATH\Views\pages\workshop.php(279): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\workshop.php', 279)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\workshop.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/workshop', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('pages/workshop')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->workshop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 10:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 10:50:00 --> Undefined variable $api
+in APPPATH\Views\pages\workshop.php on line 280.
+ 1 APPPATH\Views\pages\workshop.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\workshop.php', 280)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\workshop.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/workshop', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('pages/workshop')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->workshop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 10:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 10:50:03 --> Undefined variable $api
+in APPPATH\Views\pages\workshop.php on line 280.
+ 1 APPPATH\Views\pages\workshop.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\workshop.php', 280)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\workshop.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/workshop', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('pages/workshop')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->workshop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 10:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 10:50:18 --> Cannot use [] for reading
+in APPPATH\Views\pages\workshop.php on line 280.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-07-26 10:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 10:51:26 --> Undefined variable $api
+in APPPATH\Views\pages\event.php on line 681.
+ 1 APPPATH\Views\pages\event.php(681): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\event.php', 681)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\event.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/event', [], true)
+ 5 APPPATH\Controllers\Home.php(34): view('pages/event')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->event()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 10:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 10:51:27 --> Undefined variable $api
+in APPPATH\Views\pages\event.php on line 681.
+ 1 APPPATH\Views\pages\event.php(681): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\event.php', 681)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\event.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/event', [], true)
+ 5 APPPATH\Controllers\Home.php(34): view('pages/event')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->event()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 10:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 10:52:00 --> Undefined variable $api
+in APPPATH\Views\pages\gallery.php on line 316.
+ 1 APPPATH\Views\pages\gallery.php(316): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\gallery.php', 316)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\gallery.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/gallery', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('pages/gallery')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->gallery()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 10:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 10:52:22 --> Undefined variable $api
+in APPPATH\Views\pages\blog.php on line 347.
+ 1 APPPATH\Views\pages\blog.php(347): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\blog.php', 347)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\blog.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/blog', [], true)
+ 5 APPPATH\Controllers\Home.php(46): view('pages/blog')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->blog()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 10:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:54:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 10:54:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 10:54:11 --> Undefined variable $api
+in APPPATH\Views\pages\blog.php on line 347.
+ 1 APPPATH\Views\pages\blog.php(347): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\blog.php', 347)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\blog.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/blog', [], true)
+ 5 APPPATH\Controllers\Home.php(46): view('pages/blog')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->blog()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 10:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 11:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 11:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 11:08:59 --> Undefined variable $api
+in APPPATH\Views\pages\workshop.php on line 279.
+ 1 APPPATH\Views\pages\workshop.php(279): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\workshop.php', 279)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\workshop.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/workshop', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('pages/workshop')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->workshop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 11:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 11:12:58 --> Undefined variable $api
+in APPPATH\Views\pages\workshop.php on line 254.
+ 1 APPPATH\Views\pages\workshop.php(254): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\workshop.php', 254)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\workshop.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/workshop', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('pages/workshop')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->workshop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 11:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 11:13:41 --> Undefined variable $api
+in APPPATH\Views\pages\workshop.php on line 254.
+ 1 APPPATH\Views\pages\workshop.php(254): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\workshop.php', 254)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\workshop.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/workshop', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('pages/workshop')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->workshop()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 11:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 11:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 11:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 11:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 11:15:35 --> Undefined variable $api
+in APPPATH\Views\pages\event.php on line 681.
+ 1 APPPATH\Views\pages\event.php(681): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\event.php', 681)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\event.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/event', [], true)
+ 5 APPPATH\Controllers\Home.php(34): view('pages/event')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->event()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 11:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 11:17:51 --> Undefined variable $api
+in APPPATH\Views\pages\event.php on line 681.
+ 1 APPPATH\Views\pages\event.php(681): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\event.php', 681)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\event.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/event', [], true)
+ 5 APPPATH\Controllers\Home.php(34): view('pages/event')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->event()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 11:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 11:17:54 --> Undefined variable $api
+in APPPATH\Views\pages\event.php on line 681.
+ 1 APPPATH\Views\pages\event.php(681): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\event.php', 681)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\event.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/event', [], true)
+ 5 APPPATH\Controllers\Home.php(34): view('pages/event')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->event()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 11:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 11:17:55 --> Undefined variable $api
+in APPPATH\Views\pages\event.php on line 681.
+ 1 APPPATH\Views\pages\event.php(681): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\event.php', 681)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\event.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/event', [], true)
+ 5 APPPATH\Controllers\Home.php(34): view('pages/event')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->event()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 11:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 11:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 11:18:27 --> Undefined variable $api
+in APPPATH\Views\pages\gallery.php on line 316.
+ 1 APPPATH\Views\pages\gallery.php(316): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\gallery.php', 316)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\gallery.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/gallery', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('pages/gallery')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->gallery()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 11:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 11:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 11:19:29 --> Undefined variable $api
+in APPPATH\Views\pages\blog.php on line 347.
+ 1 APPPATH\Views\pages\blog.php(347): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\blog.php', 347)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\blog.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/blog', [], true)
+ 5 APPPATH\Controllers\Home.php(46): view('pages/blog')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->blog()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 11:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 11:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 11:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 11:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 11:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 11:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 11:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 11:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 11:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 11:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 11:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 11:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 11:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 11:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 11:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 11:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 11:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 11:52:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 11:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 11:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 11:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 11:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 11:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 11:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 11:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 11:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 11:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 11:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 12:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 12:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 12:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 12:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 12:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 12:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 12:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 12:07:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 12:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 12:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 12:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 12:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 12:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 12:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 12:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 12:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 12:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 12:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 12:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 12:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 12:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 12:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 13:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-26 13:00:46 --> mysqli_sql_exception: Table 'ssamtorg_iaoi.gallery' doesn't exist in C:\xampp\htdocs\oloogy\backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\oloogy\backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\oloogy\backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\oloogy\backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\oloogy\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\oloogy\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\oloogy\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\oloogy\backend\app\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\oloogy\backend\app\Controllers\Gallery\GalleryController.php(43): App\Infrastructure\Persistence\Gallery\SQLGalleryRepository->findAll()
+#8 C:\xampp\htdocs\oloogy\backend\system\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery()
+#9 C:\xampp\htdocs\oloogy\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+#10 C:\xampp\htdocs\oloogy\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\oloogy\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-07-26 13:00:46 --> Table 'ssamtorg_iaoi.gallery' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `Gallery`
+ORDER BY `created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Gallery`
+ORDER BY `created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Gallery`
+ORDER BY `created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Gallery`
+ORDER BY `created_at` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Gallery\GalleryController.php(43): App\Infrastructure\Persistence\Gallery\SQLGalleryRepository->findAll()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 13:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-26 13:02:01 --> mysqli_sql_exception: Unknown column 'created_at' in 'order clause' in C:\xampp\htdocs\oloogy\backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\oloogy\backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\oloogy\backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\oloogy\backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\oloogy\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\oloogy\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\oloogy\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\oloogy\backend\app\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\oloogy\backend\app\Controllers\Gallery\GalleryController.php(43): App\Infrastructure\Persistence\Gallery\SQLGalleryRepository->findAll()
+#8 C:\xampp\htdocs\oloogy\backend\system\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery()
+#9 C:\xampp\htdocs\oloogy\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+#10 C:\xampp\htdocs\oloogy\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\oloogy\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-07-26 13:02:01 --> Unknown column 'created_at' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `Gallery`
+ORDER BY `created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Gallery`
+ORDER BY `created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Gallery`
+ORDER BY `created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Gallery`
+ORDER BY `created_at` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Gallery\GalleryController.php(43): App\Infrastructure\Persistence\Gallery\SQLGalleryRepository->findAll()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 13:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 13:03:51 --> "phone_number_format" is not a valid Model Event callback.
+in SYSTEMPATH\BaseModel.php on line 1559.
+ 1 SYSTEMPATH\BaseModel.php(1559): CodeIgniter\Database\Exceptions\DataException::forInvalidMethodTriggered('phone_number_format')
+ 2 SYSTEMPATH\BaseModel.php(626): CodeIgniter\BaseModel->trigger('afterFind', [...])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+ 4 APPPATH\Controllers\Gallery\GalleryController.php(43): App\Infrastructure\Persistence\Gallery\SQLGalleryRepository->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 13:04:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 13:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 13:04:26 --> "phone_number_format" is not a valid Model Event callback.
+in SYSTEMPATH\BaseModel.php on line 1559.
+ 1 SYSTEMPATH\BaseModel.php(1559): CodeIgniter\Database\Exceptions\DataException::forInvalidMethodTriggered('phone_number_format')
+ 2 SYSTEMPATH\BaseModel.php(626): CodeIgniter\BaseModel->trigger('afterFind', [...])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+ 4 APPPATH\Controllers\Gallery\GalleryController.php(43): App\Infrastructure\Persistence\Gallery\SQLGalleryRepository->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 13:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 13:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 13:05:21 --> "phone_number_format" is not a valid Model Event callback.
+in SYSTEMPATH\BaseModel.php on line 1559.
+ 1 SYSTEMPATH\BaseModel.php(1559): CodeIgniter\Database\Exceptions\DataException::forInvalidMethodTriggered('phone_number_format')
+ 2 SYSTEMPATH\BaseModel.php(626): CodeIgniter\BaseModel->trigger('afterFind', [...])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+ 4 APPPATH\Controllers\Gallery\GalleryController.php(43): App\Infrastructure\Persistence\Gallery\SQLGalleryRepository->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 13:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 13:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 13:05:34 --> "phone_number_format" is not a valid Model Event callback.
+in SYSTEMPATH\BaseModel.php on line 1559.
+ 1 SYSTEMPATH\BaseModel.php(1559): CodeIgniter\Database\Exceptions\DataException::forInvalidMethodTriggered('phone_number_format')
+ 2 SYSTEMPATH\BaseModel.php(626): CodeIgniter\BaseModel->trigger('afterFind', [...])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+ 4 APPPATH\Controllers\Gallery\GalleryController.php(43): App\Infrastructure\Persistence\Gallery\SQLGalleryRepository->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 13:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 13:05:42 --> "phone_number_format" is not a valid Model Event callback.
+in SYSTEMPATH\BaseModel.php on line 1559.
+ 1 SYSTEMPATH\BaseModel.php(1559): CodeIgniter\Database\Exceptions\DataException::forInvalidMethodTriggered('phone_number_format')
+ 2 SYSTEMPATH\BaseModel.php(626): CodeIgniter\BaseModel->trigger('afterFind', [...])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+ 4 APPPATH\Controllers\Gallery\GalleryController.php(42): App\Infrastructure\Persistence\Gallery\SQLGalleryRepository->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 13:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 13:05:44 --> "phone_number_format" is not a valid Model Event callback.
+in SYSTEMPATH\BaseModel.php on line 1559.
+ 1 SYSTEMPATH\BaseModel.php(1559): CodeIgniter\Database\Exceptions\DataException::forInvalidMethodTriggered('phone_number_format')
+ 2 SYSTEMPATH\BaseModel.php(626): CodeIgniter\BaseModel->trigger('afterFind', [...])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+ 4 APPPATH\Controllers\Gallery\GalleryController.php(42): App\Infrastructure\Persistence\Gallery\SQLGalleryRepository->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 13:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-26 13:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 13:09:04 --> Unclosed '{' on line 59
+in APPPATH\Views\pages\gallery.php on line 109.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/gallery', [], true)
+ 3 APPPATH\Helpers\View_helper.php(7): view('pages/gallery', [...])
+ 4 APPPATH\Controllers\Gallery\GalleryController.php(43): renderPage('gallery', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 13:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 13:09:29 --> Undefined variable $publicationData
+in APPPATH\Views\pages\gallery.php on line 59.
+ 1 APPPATH\Views\pages\gallery.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $publicationData', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\gallery.php', 59)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\gallery.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/gallery', [], true)
+ 5 APPPATH\Helpers\View_helper.php(7): view('pages/gallery', [...])
+ 6 APPPATH\Controllers\Gallery\GalleryController.php(43): renderPage('gallery', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 13:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 13:10:07 --> Undefined variable $Data
+in APPPATH\Views\pages\gallery.php on line 58.
+ 1 APPPATH\Views\pages\gallery.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Data', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\gallery.php', 58)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\gallery.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/gallery', [], true)
+ 5 APPPATH\Helpers\View_helper.php(7): view('pages/gallery', [...])
+ 6 APPPATH\Controllers\Gallery\GalleryController.php(43): renderPage('gallery', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-26 13:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-26 13:14:29 --> Undefined variable $Data
+in APPPATH\Views\pages\gallery.php on line 58.
+ 1 APPPATH\Views\pages\gallery.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Data', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\gallery.php', 58)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\gallery.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/gallery', [], true)
+ 5 APPPATH\Helpers\View_helper.php(7): view('pages/gallery', [...])
+ 6 APPPATH\Controllers\Gallery\GalleryController.php(43): renderPage('gallery', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()

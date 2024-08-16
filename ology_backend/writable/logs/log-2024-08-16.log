@@ -1,0 +1,847 @@
+INFO - 2024-08-16 04:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 04:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 04:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 04:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 04:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 04:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:25:50 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_facebook-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:25:50 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_linkedin-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:25:50 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'Vector.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:26:07 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_facebook-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:26:07 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_linkedin-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:26:07 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'Vector.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:27:57 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_facebook-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:27:57 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_linkedin-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:27:57 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'Vector.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:28:02 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_linkedin-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:28:02 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_facebook-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:28:02 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'Vector.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:28:21 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'Vector.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:28:21 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_facebook-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:28:21 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_linkedin-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:31:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:31:41 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_linkedin-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:31:41 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_facebook-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:31:41 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'Vector.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:31:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_linkedin-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:31:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_facebook-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:31:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'Vector.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:40:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:45:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:45:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:48:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:52:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:56:25 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_linkedin-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:56:25 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_facebook-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:56:25 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'Vector.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:56:37 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_linkedin-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:56:37 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_facebook-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:56:37 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'Vector.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:56:56 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'Vector.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:56:56 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_facebook-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:56:56 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_linkedin-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:56:58 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_linkedin-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:56:58 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_facebook-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:56:59 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'Vector.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:57:03 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_facebook-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:57:03 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_linkedin-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:57:03 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'Vector.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:57:16 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_linkedin-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:57:16 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_facebook-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:57:16 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'Vector.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:57:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:57:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:57:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:57:45 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_facebook-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:57:45 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_linkedin-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:57:45 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'Vector.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:58:00 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_facebook-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:58:00 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'Vector.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:58:00 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_linkedin-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:58:11 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_facebook-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:58:11 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_linkedin-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:58:11 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'Vector.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:58:37 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_facebook-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:58:37 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_linkedin-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:58:37 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'Vector.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 05:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:59:08 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_facebook-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:59:08 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'Vector.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 05:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 05:59:08 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_linkedin-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 06:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:00:08 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_facebook-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:00:08 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_linkedin-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:00:08 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'Vector.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 06:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:00:59 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_linkedin-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:00:59 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_facebook-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:00:59 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'Vector.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 06:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:01:09 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_linkedin-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:01:09 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_facebook-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:01:09 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'Vector.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 06:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:01:21 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_facebook-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:01:22 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_linkedin-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:01:22 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'Vector.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 06:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:01:45 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'Vector.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:01:45 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_linkedin-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:01:45 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_facebook-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:01:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'Vector.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 06:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:02:15 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_facebook-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:02:15 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_linkedin-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:02:15 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'Vector.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:03:13 --> Undefined variable $imagesPerPage
+in APPPATH\Views\pages\gallery.php on line 55.
+ 1 APPPATH\Views\pages\gallery.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imagesPerPage', 'C:\\xampp\\htdocs\\ology_backend\\app\\Views\\pages\\gallery.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\ology_backend\\app\\Views\\pages\\gallery.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/gallery', [], true)
+ 5 APPPATH\Controllers\Gallery\GalleryController.php(40): view('pages/gallery', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('7')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 06:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:04:02 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_linkedin-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:04:02 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_facebook-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:04:02 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'Vector.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:04:03 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_linkedin-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:04:03 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_facebook-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 06:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 06:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:04:13 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'Vector.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:04:13 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_linkedin-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:04:13 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_facebook-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 06:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:05:10 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_facebook-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:05:10 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_linkedin-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:05:10 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'Vector.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 06:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:06:24 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_facebook-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:06:24 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_linkedin-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:06:24 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'Vector.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 06:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 06:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 06:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 06:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 06:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 06:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 06:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 06:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 06:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 06:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 06:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:08:21 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_facebook-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:08:21 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_linkedin-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 06:08:21 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 38.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ology_backend\\app\\Controllers\\Gallery\\GalleryController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'Vector.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 06:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 06:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

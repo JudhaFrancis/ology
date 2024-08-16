@@ -1,0 +1,1012 @@
+INFO - 2024-08-01 04:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-01 04:29:12 --> Undefined variable $api
+in APPPATH\Views\pages\admin-dashboard.php on line 687.
+ 1 APPPATH\Views\pages\admin-dashboard.php(687): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\admin-dashboard.php', 687)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\admin-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/admin-dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('pages/admin-dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->admin_dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 04:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 04:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-01 04:29:16 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 108.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Controllers\\Gallery\\GalleryController.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_facebook-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 04:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-01 04:29:16 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 108.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Controllers\\Gallery\\GalleryController.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_linkedin-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 04:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-01 04:29:16 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 108.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Controllers\\Gallery\\GalleryController.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'mobolo.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 04:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-01 04:29:16 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 108.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Controllers\\Gallery\\GalleryController.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'lol.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 04:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-01 04:29:16 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 108.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Controllers\\Gallery\\GalleryController.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'Vector.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 04:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 04:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 04:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 04:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 04:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-01 04:40:21 --> Undefined array key "event"
+in APPPATH\Controllers\Event\EventController.php on line 42.
+ 1 APPPATH\Controllers\Event\EventController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "event"', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Controllers\\Event\\EventController.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Event\EventController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Event\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 04:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-01 04:41:02 --> Array callback must have exactly two elements
+in APPPATH\Controllers\Event\EventController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Event\EventController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Event\EventController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 04:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-01 04:41:16 --> Undefined array key "event"
+in APPPATH\Controllers\Event\EventController.php on line 42.
+ 1 APPPATH\Controllers\Event\EventController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "event"', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Controllers\\Event\\EventController.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Event\EventController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Event\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 04:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-01 04:45:09 --> Undefined array key "event"
+in APPPATH\Controllers\Event\EventController.php on line 42.
+ 1 APPPATH\Controllers\Event\EventController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "event"', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Controllers\\Event\\EventController.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Event\EventController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Event\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 04:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-01 04:52:04 --> Undefined array key "Event"
+in APPPATH\Controllers\Event\EventController.php on line 42.
+ 1 APPPATH\Controllers\Event\EventController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Event"', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Controllers\\Event\\EventController.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Event\EventController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Event\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 04:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 04:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 04:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 04:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 04:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 04:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 04:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 04:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 04:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 04:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 04:55:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 04:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 04:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 04:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 05:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 05:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 05:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 05:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-01 05:12:05 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 108.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Controllers\\Gallery\\GalleryController.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_facebook-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 05:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-01 05:12:05 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 108.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Controllers\\Gallery\\GalleryController.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'mobolo.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 05:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-01 05:12:05 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 108.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Controllers\\Gallery\\GalleryController.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'lol.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 05:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-01 05:12:06 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 108.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Controllers\\Gallery\\GalleryController.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'Vector.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 05:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-01 05:12:06 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 108.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Controllers\\Gallery\\GalleryController.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_linkedin-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 05:12:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 05:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 05:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-01 05:12:12 --> Undefined variable $api
+in APPPATH\Views\pages\admin-login.php on line 147.
+ 1 APPPATH\Views\pages\admin-login.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\admin-login.php', 147)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\oloogy\\backend\\app\\Views\\pages\\admin-login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/admin-login', [], true)
+ 5 APPPATH\Controllers\Home.php(58): view('pages/admin-login')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->admin_login()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 05:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 05:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 05:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 05:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 05:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 05:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 05:15:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 05:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 05:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 05:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 05:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 05:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 05:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 05:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 05:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 05:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 05:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 05:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 06:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 06:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 06:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-01 06:01:50 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'ology_girls' in C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'ology_girls', 3306, '', 0)
+#1 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\oloogy_backend\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\oloogy_backend\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\oloogy_backend\backend\app\Infrastructure\Persistence\DMLPersistence.php(124): CodeIgniter\BaseModel->findAll(0)
+#7 C:\xampp\htdocs\oloogy_backend\backend\app\Controllers\Gallery\GalleryController.php(29): App\Infrastructure\Persistence\Gallery\SQLGalleryRepository->findAllByWhere(Array)
+#8 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->galleries()
+#9 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+#10 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\oloogy_backend\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'ology_girls' in C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\oloogy_backend\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\oloogy_backend\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\oloogy_backend\backend\app\Infrastructure\Persistence\DMLPersistence.php(124): CodeIgniter\BaseModel->findAll(0)
+#6 C:\xampp\htdocs\oloogy_backend\backend\app\Controllers\Gallery\GalleryController.php(29): App\Infrastructure\Persistence\Gallery\SQLGalleryRepository->findAllByWhere(Array)
+#7 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->galleries()
+#8 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+#9 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\oloogy_backend\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-01 06:01:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ology_girls'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `gallery`
+WHERE `gallery`.`status` = :gallery.status:', [...], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Infrastructure\Persistence\DMLPersistence.php(124): CodeIgniter\BaseModel->findAll(0)
+ 6 APPPATH\Controllers\Gallery\GalleryController.php(29): App\Infrastructure\Persistence\Gallery\SQLGalleryRepository->findAllByWhere([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->galleries()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 06:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-01 06:02:06 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'ology_girls' in C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'ology_girls', 3306, '', 0)
+#1 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\oloogy_backend\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\oloogy_backend\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\oloogy_backend\backend\app\Infrastructure\Persistence\DMLPersistence.php(124): CodeIgniter\BaseModel->findAll(0)
+#7 C:\xampp\htdocs\oloogy_backend\backend\app\Controllers\Gallery\GalleryController.php(29): App\Infrastructure\Persistence\Gallery\SQLGalleryRepository->findAllByWhere(Array)
+#8 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->galleries()
+#9 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+#10 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\oloogy_backend\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'ology_girls' in C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\oloogy_backend\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\oloogy_backend\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\oloogy_backend\backend\app\Infrastructure\Persistence\DMLPersistence.php(124): CodeIgniter\BaseModel->findAll(0)
+#6 C:\xampp\htdocs\oloogy_backend\backend\app\Controllers\Gallery\GalleryController.php(29): App\Infrastructure\Persistence\Gallery\SQLGalleryRepository->findAllByWhere(Array)
+#7 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->galleries()
+#8 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+#9 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\oloogy_backend\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-01 06:02:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ology_girls'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `gallery`
+WHERE `gallery`.`status` = :gallery.status:', [...], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Infrastructure\Persistence\DMLPersistence.php(124): CodeIgniter\BaseModel->findAll(0)
+ 6 APPPATH\Controllers\Gallery\GalleryController.php(29): App\Infrastructure\Persistence\Gallery\SQLGalleryRepository->findAllByWhere([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->galleries()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 06:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-01 06:02:07 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'ology_girls' in C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'ology_girls', 3306, '', 0)
+#1 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\oloogy_backend\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\oloogy_backend\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\oloogy_backend\backend\app\Infrastructure\Persistence\DMLPersistence.php(124): CodeIgniter\BaseModel->findAll(0)
+#7 C:\xampp\htdocs\oloogy_backend\backend\app\Controllers\Gallery\GalleryController.php(29): App\Infrastructure\Persistence\Gallery\SQLGalleryRepository->findAllByWhere(Array)
+#8 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->galleries()
+#9 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+#10 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\oloogy_backend\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'ology_girls' in C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\oloogy_backend\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\oloogy_backend\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\oloogy_backend\backend\app\Infrastructure\Persistence\DMLPersistence.php(124): CodeIgniter\BaseModel->findAll(0)
+#6 C:\xampp\htdocs\oloogy_backend\backend\app\Controllers\Gallery\GalleryController.php(29): App\Infrastructure\Persistence\Gallery\SQLGalleryRepository->findAllByWhere(Array)
+#7 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->galleries()
+#8 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+#9 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\oloogy_backend\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-01 06:02:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ology_girls'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `gallery`
+WHERE `gallery`.`status` = :gallery.status:', [...], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Infrastructure\Persistence\DMLPersistence.php(124): CodeIgniter\BaseModel->findAll(0)
+ 6 APPPATH\Controllers\Gallery\GalleryController.php(29): App\Infrastructure\Persistence\Gallery\SQLGalleryRepository->findAllByWhere([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->galleries()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 06:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-01 06:02:08 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'ology_girls' in C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'ology_girls', 3306, '', 0)
+#1 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\oloogy_backend\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\oloogy_backend\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\oloogy_backend\backend\app\Infrastructure\Persistence\DMLPersistence.php(124): CodeIgniter\BaseModel->findAll(0)
+#7 C:\xampp\htdocs\oloogy_backend\backend\app\Controllers\Gallery\GalleryController.php(29): App\Infrastructure\Persistence\Gallery\SQLGalleryRepository->findAllByWhere(Array)
+#8 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->galleries()
+#9 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+#10 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\oloogy_backend\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'ology_girls' in C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\oloogy_backend\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\oloogy_backend\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\oloogy_backend\backend\app\Infrastructure\Persistence\DMLPersistence.php(124): CodeIgniter\BaseModel->findAll(0)
+#6 C:\xampp\htdocs\oloogy_backend\backend\app\Controllers\Gallery\GalleryController.php(29): App\Infrastructure\Persistence\Gallery\SQLGalleryRepository->findAllByWhere(Array)
+#7 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->galleries()
+#8 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+#9 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\oloogy_backend\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-01 06:02:08 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ology_girls'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `gallery`
+WHERE `gallery`.`status` = :gallery.status:', [...], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Infrastructure\Persistence\DMLPersistence.php(124): CodeIgniter\BaseModel->findAll(0)
+ 6 APPPATH\Controllers\Gallery\GalleryController.php(29): App\Infrastructure\Persistence\Gallery\SQLGalleryRepository->findAllByWhere([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->galleries()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 06:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 06:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 06:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-01 06:02:48 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 108.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\oloogy_backend\\backend\\app\\Controllers\\Gallery\\GalleryController.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_linkedin-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 06:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-01 06:02:48 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 108.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\oloogy_backend\\backend\\app\\Controllers\\Gallery\\GalleryController.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'mobolo.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 06:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-01 06:02:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 108.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\oloogy_backend\\backend\\app\\Controllers\\Gallery\\GalleryController.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'lol.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 06:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-01 06:02:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 108.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\oloogy_backend\\backend\\app\\Controllers\\Gallery\\GalleryController.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_facebook-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 06:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-01 06:02:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 108.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\oloogy_backend\\backend\\app\\Controllers\\Gallery\\GalleryController.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'Vector.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 06:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 06:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 06:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-01 06:07:09 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 108.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\oloogy_backend\\backend\\app\\Controllers\\Gallery\\GalleryController.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_facebook-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 06:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-01 06:07:09 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 108.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\oloogy_backend\\backend\\app\\Controllers\\Gallery\\GalleryController.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'Vector.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 06:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-01 06:07:09 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 108.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\oloogy_backend\\backend\\app\\Controllers\\Gallery\\GalleryController.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'lol.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 06:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-01 06:07:09 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 108.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\oloogy_backend\\backend\\app\\Controllers\\Gallery\\GalleryController.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'ri_linkedin-fill.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 06:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-01 06:07:09 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 108.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\oloogy_backend\\backend\\app\\Controllers\\Gallery\\GalleryController.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('assets', 'img', 'mobolo.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 06:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-01 06:23:18 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 108.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\oloogy_backend\\backend\\app\\Controllers\\Gallery\\GalleryController.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('2')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 06:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-01 06:23:21 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 108.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\oloogy_backend\\backend\\app\\Controllers\\Gallery\\GalleryController.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('2')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 06:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-01 06:23:22 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 108.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\oloogy_backend\\backend\\app\\Controllers\\Gallery\\GalleryController.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('2')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 06:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-01 06:23:23 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 108.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\oloogy_backend\\backend\\app\\Controllers\\Gallery\\GalleryController.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('2')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 06:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-01 06:23:23 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gallery\GalleryController.php on line 108.
+ 1 APPPATH\Controllers\Gallery\GalleryController.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\oloogy_backend\\backend\\app\\Controllers\\Gallery\\GalleryController.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->gallery('2')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 06:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-01 06:23:24 --> mysqli_sql_exception: Unknown column 'gallery.status' in 'where clause' in C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\oloogy_backend\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\oloogy_backend\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\oloogy_backend\backend\app\Infrastructure\Persistence\DMLPersistence.php(124): CodeIgniter\BaseModel->findAll(0)
+#7 C:\xampp\htdocs\oloogy_backend\backend\app\Controllers\Gallery\GalleryController.php(29): App\Infrastructure\Persistence\Gallery\SQLGalleryRepository->findAllByWhere(Array)
+#8 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->galleries()
+#9 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+#10 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\oloogy_backend\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-08-01 06:23:24 --> Unknown column 'gallery.status' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `gallery`
+WHERE `gallery`.`status` = 2', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `gallery`
+WHERE `gallery`.`status` = 2')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `gallery`
+WHERE `gallery`.`status` = 2')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `gallery`
+WHERE `gallery`.`status` = :gallery.status:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Infrastructure\Persistence\DMLPersistence.php(124): CodeIgniter\BaseModel->findAll(0)
+ 8 APPPATH\Controllers\Gallery\GalleryController.php(29): App\Infrastructure\Persistence\Gallery\SQLGalleryRepository->findAllByWhere([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->galleries()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 06:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 06:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-01 06:23:31 --> mysqli_sql_exception: Unknown column 'created_at' in 'order clause' in C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\oloogy_backend\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\oloogy_backend\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\oloogy_backend\backend\app\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\oloogy_backend\backend\app\Controllers\Event\EventController.php(33): App\Infrastructure\Persistence\Event\SQLCategoryRepository->findAll()
+#8 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(932): Core\Controllers\Event\EventController->event()
+#9 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Event\EventController))
+#10 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\oloogy_backend\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-08-01 06:23:31 --> Unknown column 'created_at' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `category`
+ORDER BY `created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `category`
+ORDER BY `created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `category`
+ORDER BY `created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `category`
+ORDER BY `created_at` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Event\EventController.php(33): App\Infrastructure\Persistence\Event\SQLCategoryRepository->findAll()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Event\EventController->event()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Event\EventController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 06:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 06:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 06:27:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 06:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 06:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-01 06:27:56 --> mysqli_sql_exception: Unknown column 'gallery.status' in 'where clause' in C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\oloogy_backend\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\oloogy_backend\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\oloogy_backend\backend\app\Infrastructure\Persistence\DMLPersistence.php(124): CodeIgniter\BaseModel->findAll(0)
+#7 C:\xampp\htdocs\oloogy_backend\backend\app\Controllers\Gallery\GalleryController.php(29): App\Infrastructure\Persistence\Gallery\SQLGalleryRepository->findAllByWhere(Array)
+#8 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->galleries()
+#9 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+#10 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\oloogy_backend\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-08-01 06:27:56 --> Unknown column 'gallery.status' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `gallery`
+WHERE `gallery`.`status` = 2', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `gallery`
+WHERE `gallery`.`status` = 2')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `gallery`
+WHERE `gallery`.`status` = 2')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `gallery`
+WHERE `gallery`.`status` = :gallery.status:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Infrastructure\Persistence\DMLPersistence.php(124): CodeIgniter\BaseModel->findAll(0)
+ 8 APPPATH\Controllers\Gallery\GalleryController.php(29): App\Infrastructure\Persistence\Gallery\SQLGalleryRepository->findAllByWhere([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->galleries()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 06:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 06:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 06:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 06:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 06:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 06:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-01 06:29:08 --> mysqli_sql_exception: Unknown column 'gallery.status' in 'where clause' in C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\oloogy_backend\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\oloogy_backend\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\oloogy_backend\backend\app\Infrastructure\Persistence\DMLPersistence.php(124): CodeIgniter\BaseModel->findAll(0)
+#7 C:\xampp\htdocs\oloogy_backend\backend\app\Controllers\Gallery\GalleryController.php(29): App\Infrastructure\Persistence\Gallery\SQLGalleryRepository->findAllByWhere(Array)
+#8 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->galleries()
+#9 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+#10 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\oloogy_backend\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-08-01 06:29:08 --> Unknown column 'gallery.status' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `gallery`
+WHERE `gallery`.`status` = 2', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `gallery`
+WHERE `gallery`.`status` = 2')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `gallery`
+WHERE `gallery`.`status` = 2')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `gallery`
+WHERE `gallery`.`status` = :gallery.status:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Infrastructure\Persistence\DMLPersistence.php(124): CodeIgniter\BaseModel->findAll(0)
+ 8 APPPATH\Controllers\Gallery\GalleryController.php(29): App\Infrastructure\Persistence\Gallery\SQLGalleryRepository->findAllByWhere([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->galleries()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 06:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 06:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-01 06:29:17 --> mysqli_sql_exception: Unknown column 'created_at' in 'order clause' in C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\oloogy_backend\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\oloogy_backend\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\oloogy_backend\backend\app\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\oloogy_backend\backend\app\Controllers\Event\EventController.php(33): App\Infrastructure\Persistence\Event\SQLCategoryRepository->findAll()
+#8 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(932): Core\Controllers\Event\EventController->event()
+#9 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Event\EventController))
+#10 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\oloogy_backend\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-08-01 06:29:17 --> Unknown column 'created_at' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `category`
+ORDER BY `created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `category`
+ORDER BY `created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `category`
+ORDER BY `created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `category`
+ORDER BY `created_at` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Event\EventController.php(33): App\Infrastructure\Persistence\Event\SQLCategoryRepository->findAll()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Event\EventController->event()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Event\EventController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 06:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 06:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-01 06:34:57 --> mysqli_sql_exception: Unknown column 'created_at' in 'order clause' in C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\oloogy_backend\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\oloogy_backend\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\oloogy_backend\backend\app\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\oloogy_backend\backend\app\Controllers\Event\EventController.php(33): App\Infrastructure\Persistence\Event\SQLCategoryRepository->findAll()
+#8 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(932): Core\Controllers\Event\EventController->event()
+#9 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Event\EventController))
+#10 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\oloogy_backend\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-08-01 06:34:57 --> Unknown column 'created_at' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `category`
+ORDER BY `created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `category`
+ORDER BY `created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `category`
+ORDER BY `created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `category`
+ORDER BY `created_at` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Event\EventController.php(33): App\Infrastructure\Persistence\Event\SQLCategoryRepository->findAll()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Event\EventController->event()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Event\EventController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 06:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 06:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-01 06:35:00 --> mysqli_sql_exception: Unknown column 'gallery.status' in 'where clause' in C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\oloogy_backend\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\oloogy_backend\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\oloogy_backend\backend\app\Infrastructure\Persistence\DMLPersistence.php(124): CodeIgniter\BaseModel->findAll(0)
+#7 C:\xampp\htdocs\oloogy_backend\backend\app\Controllers\Gallery\GalleryController.php(29): App\Infrastructure\Persistence\Gallery\SQLGalleryRepository->findAllByWhere(Array)
+#8 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->galleries()
+#9 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+#10 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\oloogy_backend\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-08-01 06:35:00 --> Unknown column 'gallery.status' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `gallery`
+WHERE `gallery`.`status` = 2', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `gallery`
+WHERE `gallery`.`status` = 2')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `gallery`
+WHERE `gallery`.`status` = 2')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `gallery`
+WHERE `gallery`.`status` = :gallery.status:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Infrastructure\Persistence\DMLPersistence.php(124): CodeIgniter\BaseModel->findAll(0)
+ 8 APPPATH\Controllers\Gallery\GalleryController.php(29): App\Infrastructure\Persistence\Gallery\SQLGalleryRepository->findAllByWhere([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->galleries()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 06:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 07:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 07:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 12:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 12:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-01 12:57:44 --> mysqli_sql_exception: Unknown column 'created_at' in 'order clause' in C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\oloogy_backend\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\oloogy_backend\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\oloogy_backend\backend\app\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\oloogy_backend\backend\app\Controllers\Event\EventController.php(33): App\Infrastructure\Persistence\Event\SQLCategoryRepository->findAll()
+#8 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(932): Core\Controllers\Event\EventController->event()
+#9 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Event\EventController))
+#10 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\oloogy_backend\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-08-01 12:57:44 --> Unknown column 'created_at' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `category`
+ORDER BY `created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `category`
+ORDER BY `created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `category`
+ORDER BY `created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `category`
+ORDER BY `created_at` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Event\EventController.php(33): App\Infrastructure\Persistence\Event\SQLCategoryRepository->findAll()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Event\EventController->event()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Event\EventController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 12:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-01 12:57:45 --> mysqli_sql_exception: Unknown column 'created_at' in 'order clause' in C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\oloogy_backend\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\oloogy_backend\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\oloogy_backend\backend\app\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\oloogy_backend\backend\app\Controllers\Event\EventController.php(33): App\Infrastructure\Persistence\Event\SQLCategoryRepository->findAll()
+#8 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(932): Core\Controllers\Event\EventController->event()
+#9 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Event\EventController))
+#10 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\oloogy_backend\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-08-01 12:57:45 --> Unknown column 'created_at' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `category`
+ORDER BY `created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `category`
+ORDER BY `created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `category`
+ORDER BY `created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `category`
+ORDER BY `created_at` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Event\EventController.php(33): App\Infrastructure\Persistence\Event\SQLCategoryRepository->findAll()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Event\EventController->event()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Event\EventController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 12:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 12:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-01 12:57:46 --> mysqli_sql_exception: Unknown column 'gallery.status' in 'where clause' in C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\oloogy_backend\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\oloogy_backend\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\oloogy_backend\backend\app\Infrastructure\Persistence\DMLPersistence.php(124): CodeIgniter\BaseModel->findAll(0)
+#7 C:\xampp\htdocs\oloogy_backend\backend\app\Controllers\Gallery\GalleryController.php(29): App\Infrastructure\Persistence\Gallery\SQLGalleryRepository->findAllByWhere(Array)
+#8 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->galleries()
+#9 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+#10 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\oloogy_backend\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-08-01 12:57:46 --> Unknown column 'gallery.status' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `gallery`
+WHERE `gallery`.`status` = 2', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `gallery`
+WHERE `gallery`.`status` = 2')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `gallery`
+WHERE `gallery`.`status` = 2')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `gallery`
+WHERE `gallery`.`status` = :gallery.status:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Infrastructure\Persistence\DMLPersistence.php(124): CodeIgniter\BaseModel->findAll(0)
+ 8 APPPATH\Controllers\Gallery\GalleryController.php(29): App\Infrastructure\Persistence\Gallery\SQLGalleryRepository->findAllByWhere([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->galleries()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 12:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 12:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-01 12:57:55 --> mysqli_sql_exception: Unknown column 'gallery.status' in 'where clause' in C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\oloogy_backend\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\oloogy_backend\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\oloogy_backend\backend\app\Infrastructure\Persistence\DMLPersistence.php(124): CodeIgniter\BaseModel->findAll(0)
+#7 C:\xampp\htdocs\oloogy_backend\backend\app\Controllers\Gallery\GalleryController.php(29): App\Infrastructure\Persistence\Gallery\SQLGalleryRepository->findAllByWhere(Array)
+#8 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->galleries()
+#9 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+#10 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\oloogy_backend\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-08-01 12:57:55 --> Unknown column 'gallery.status' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `gallery`
+WHERE `gallery`.`status` = 2', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `gallery`
+WHERE `gallery`.`status` = 2')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `gallery`
+WHERE `gallery`.`status` = 2')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `gallery`
+WHERE `gallery`.`status` = :gallery.status:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Infrastructure\Persistence\DMLPersistence.php(124): CodeIgniter\BaseModel->findAll(0)
+ 8 APPPATH\Controllers\Gallery\GalleryController.php(29): App\Infrastructure\Persistence\Gallery\SQLGalleryRepository->findAllByWhere([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Gallery\GalleryController->galleries()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Gallery\GalleryController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 12:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 12:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 12:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-01 12:58:14 --> mysqli_sql_exception: Unknown column 'created_at' in 'order clause' in C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\oloogy_backend\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\oloogy_backend\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\oloogy_backend\backend\app\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\oloogy_backend\backend\app\Controllers\Event\EventController.php(33): App\Infrastructure\Persistence\Event\SQLCategoryRepository->findAll()
+#8 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(932): Core\Controllers\Event\EventController->event()
+#9 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Event\EventController))
+#10 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\oloogy_backend\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-08-01 12:58:14 --> Unknown column 'created_at' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `category`
+ORDER BY `created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `category`
+ORDER BY `created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `category`
+ORDER BY `created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `category`
+ORDER BY `created_at` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Event\EventController.php(33): App\Infrastructure\Persistence\Event\SQLCategoryRepository->findAll()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Event\EventController->event()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Event\EventController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 12:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-01 12:58:16 --> mysqli_sql_exception: Unknown column 'created_at' in 'order clause' in C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\oloogy_backend\backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\oloogy_backend\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\oloogy_backend\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\oloogy_backend\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\oloogy_backend\backend\app\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\oloogy_backend\backend\app\Controllers\Event\EventController.php(33): App\Infrastructure\Persistence\Event\SQLCategoryRepository->findAll()
+#8 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(932): Core\Controllers\Event\EventController->event()
+#9 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Event\EventController))
+#10 C:\xampp\htdocs\oloogy_backend\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\oloogy_backend\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-08-01 12:58:16 --> Unknown column 'created_at' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `category`
+ORDER BY `created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `category`
+ORDER BY `created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `category`
+ORDER BY `created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `category`
+ORDER BY `created_at` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Event\EventController.php(33): App\Infrastructure\Persistence\Event\SQLCategoryRepository->findAll()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Event\EventController->event()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Event\EventController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-01 12:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 12:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

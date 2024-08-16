@@ -1,0 +1,791 @@
+INFO - 2024-06-26 04:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 04:37:53 --> Undefined array key "member_fk_id"
+in APPPATH\Controllers\Become_a_member.php on line 48.
+ 1 APPPATH\Controllers\Become_a_member.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "member_fk_id"', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Become_a_member.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Become_a_member->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Become_a_member))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 04:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 04:38:13 --> Undefined array key "member_fk_id"
+in APPPATH\Controllers\Become_a_member.php on line 48.
+ 1 APPPATH\Controllers\Become_a_member.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "member_fk_id"', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Become_a_member.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Become_a_member->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Become_a_member))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 04:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 04:38:15 --> Undefined array key "member_fk_id"
+in APPPATH\Controllers\Become_a_member.php on line 48.
+ 1 APPPATH\Controllers\Become_a_member.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "member_fk_id"', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Become_a_member.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Become_a_member->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Become_a_member))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 04:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 04:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 04:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 04:52:15 --> Undefined array key "member_fk_id"
+in APPPATH\Controllers\Become_a_member.php on line 47.
+ 1 APPPATH\Controllers\Become_a_member.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "member_fk_id"', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Become_a_member.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Become_a_member->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Become_a_member))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-26 04:53:56 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Become_a_member.php on line 66.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Become_a_member.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Core\\Controllers\\Become_a_member')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Core\\Controllers\\Become_a_member')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\Core\\Controllers\\Become_a_member', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 04:54:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 04:54:11 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\pages\member-profile.php on line 10.
+ 1 APPPATH\Views\pages\member-profile.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\member-profile.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\member-profile.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/member-profile', [], true)
+ 5 APPPATH\Controllers\Become_a_member.php(61): view('pages/member-profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Become_a_member->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Become_a_member))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 04:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 04:54:58 --> Undefined variable $items
+in APPPATH\Views\pages\member-profile.php on line 14.
+ 1 APPPATH\Views\pages\member-profile.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $items', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\member-profile.php', 14)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\member-profile.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/member-profile', [], true)
+ 5 APPPATH\Controllers\Become_a_member.php(61): view('pages/member-profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Become_a_member->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Become_a_member))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 04:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 04:55:00 --> Undefined variable $items
+in APPPATH\Views\pages\member-profile.php on line 14.
+ 1 APPPATH\Views\pages\member-profile.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $items', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\member-profile.php', 14)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\member-profile.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/member-profile', [], true)
+ 5 APPPATH\Controllers\Become_a_member.php(61): view('pages/member-profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Become_a_member->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Become_a_member))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 04:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 04:55:02 --> Undefined variable $items
+in APPPATH\Views\pages\member-profile.php on line 14.
+ 1 APPPATH\Views\pages\member-profile.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $items', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\member-profile.php', 14)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\member-profile.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/member-profile', [], true)
+ 5 APPPATH\Controllers\Become_a_member.php(61): view('pages/member-profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Become_a_member->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Become_a_member))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 04:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 04:55:16 --> Trying to access array offset on value of type null
+in APPPATH\Views\pages\member-profile.php on line 14.
+ 1 APPPATH\Views\pages\member-profile.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\member-profile.php', 14)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\member-profile.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/member-profile', [], true)
+ 5 APPPATH\Controllers\Become_a_member.php(61): view('pages/member-profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Become_a_member->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Become_a_member))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 04:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 04:55:32 --> Trying to access array offset on value of type null
+in APPPATH\Views\pages\member-profile.php on line 14.
+ 1 APPPATH\Views\pages\member-profile.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\member-profile.php', 14)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\member-profile.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/member-profile', [], true)
+ 5 APPPATH\Controllers\Become_a_member.php(61): view('pages/member-profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Become_a_member->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Become_a_member))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 04:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 04:55:36 --> Trying to access array offset on value of type null
+in APPPATH\Views\pages\member-profile.php on line 14.
+ 1 APPPATH\Views\pages\member-profile.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\member-profile.php', 14)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\member-profile.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/member-profile', [], true)
+ 5 APPPATH\Controllers\Become_a_member.php(61): view('pages/member-profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Become_a_member->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Become_a_member))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 04:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 04:55:45 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\pages\member-profile.php on line 25.
+ 1 APPPATH\Views\pages\member-profile.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\member-profile.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\member-profile.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/member-profile', [], true)
+ 5 APPPATH\Controllers\Become_a_member.php(61): view('pages/member-profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Become_a_member->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Become_a_member))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 04:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 04:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 04:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 04:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 04:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 04:56:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 04:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 04:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 04:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 04:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 04:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 04:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 04:57:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 04:57:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 04:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 04:57:30 --> Undefined variable $member_fk_id
+in APPPATH\Controllers\Become_a_member.php on line 48.
+ 1 APPPATH\Controllers\Become_a_member.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $member_fk_id', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Become_a_member.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Become_a_member->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Become_a_member))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 04:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 04:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 04:57:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 04:57:44 --> Undefined variable $member_fk_id
+in APPPATH\Controllers\Become_a_member.php on line 48.
+ 1 APPPATH\Controllers\Become_a_member.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $member_fk_id', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Become_a_member.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Become_a_member->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Become_a_member))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 04:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 04:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 04:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 04:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 04:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 04:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 04:59:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 04:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 04:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 05:00:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 05:00:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 05:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 05:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 05:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 05:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 05:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 05:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 05:02:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 05:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 05:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 05:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 05:12:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 05:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 05:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 05:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 05:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 05:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 05:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 05:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 05:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 05:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 05:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 05:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 05:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 05:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 05:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 05:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 05:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:06:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:06:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'js', 'app.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:06:21 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'js', 'main.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:06:21 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'js', 'vendor', 'jquery-3.6.0.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:06:21 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'img', 'IAOI Logo _ PNG-1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:08:21 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'js', 'main.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:08:21 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'js', 'app.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:08:21 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'js', 'vendor', 'jquery-3.6.0.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:08:21 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'img', 'IAOI Logo _ PNG-1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:08:31 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'img', 'IAOI Logo _ PNG-1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:08:31 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'js', 'main.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:08:31 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'js', 'vendor', 'jquery-3.6.0.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:08:31 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'js', 'app.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:09:43 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'js', 'vendor', 'jquery-3.6.0.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:09:43 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'js', 'main.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:09:43 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'img', 'IAOI Logo _ PNG-1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:09:43 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'js', 'app.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:11:28 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'js', 'vendor', 'jquery-3.6.0.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:11:28 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'js', 'main.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:11:28 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'img', 'IAOI Logo _ PNG-1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:11:28 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'js', 'app.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:18:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:26:48 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'js', 'app.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:26:48 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'js', 'main.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:26:48 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'js', 'vendor', 'jquery-3.6.0.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:26:48 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'img', 'IAOI Logo _ PNG-1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:28:23 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'js', 'main.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:28:23 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'js', 'app.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:28:23 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'img', 'IAOI Logo _ PNG-1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:28:23 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'js', 'vendor', 'jquery-3.6.0.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:28:26 --> Trying to access array offset on value of type null
+in APPPATH\Views\pages\videoplayer.php on line 9.
+ 1 APPPATH\Views\pages\videoplayer.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\videoplayer.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\videoplayer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/videoplayer', [], true)
+ 5 APPPATH\Helpers\View_helper.php(7): view('pages/videoplayer', [...])
+ 6 APPPATH\Controllers\Events\E_learning_materialController.php(36): renderPage('videoplayer', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->videoCourseMaterial('assets', 'img', 'IAOI Logo _ PNG-1.png')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:28:26 --> Trying to access array offset on value of type null
+in APPPATH\Views\pages\videoplayer.php on line 9.
+ 1 APPPATH\Views\pages\videoplayer.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\videoplayer.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\videoplayer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/videoplayer', [], true)
+ 5 APPPATH\Helpers\View_helper.php(7): view('pages/videoplayer', [...])
+ 6 APPPATH\Controllers\Events\E_learning_materialController.php(36): renderPage('videoplayer', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->videoCourseMaterial('assets', 'js', 'app.min.js')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:28:26 --> Trying to access array offset on value of type null
+in APPPATH\Views\pages\videoplayer.php on line 9.
+ 1 APPPATH\Views\pages\videoplayer.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\videoplayer.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\videoplayer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/videoplayer', [], true)
+ 5 APPPATH\Helpers\View_helper.php(7): view('pages/videoplayer', [...])
+ 6 APPPATH\Controllers\Events\E_learning_materialController.php(36): renderPage('videoplayer', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->videoCourseMaterial('assets', 'js', 'vendor', 'jquery-3.6.0.min.js')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:28:26 --> Trying to access array offset on value of type null
+in APPPATH\Views\pages\videoplayer.php on line 9.
+ 1 APPPATH\Views\pages\videoplayer.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\videoplayer.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\videoplayer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/videoplayer', [], true)
+ 5 APPPATH\Helpers\View_helper.php(7): view('pages/videoplayer', [...])
+ 6 APPPATH\Controllers\Events\E_learning_materialController.php(36): renderPage('videoplayer', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->videoCourseMaterial('assets', 'js', 'main.js')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:30:29 --> Trying to access array offset on value of type null
+in APPPATH\Views\pages\videoplayer.php on line 15.
+ 1 APPPATH\Views\pages\videoplayer.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\videoplayer.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\videoplayer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/videoplayer', [], true)
+ 5 APPPATH\Helpers\View_helper.php(7): view('pages/videoplayer', [...])
+ 6 APPPATH\Controllers\Events\E_learning_materialController.php(36): renderPage('videoplayer', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->videoCourseMaterial('assets', 'js', 'main.js')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:30:29 --> Trying to access array offset on value of type null
+in APPPATH\Views\pages\videoplayer.php on line 15.
+ 1 APPPATH\Views\pages\videoplayer.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\videoplayer.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\videoplayer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/videoplayer', [], true)
+ 5 APPPATH\Helpers\View_helper.php(7): view('pages/videoplayer', [...])
+ 6 APPPATH\Controllers\Events\E_learning_materialController.php(36): renderPage('videoplayer', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->videoCourseMaterial('assets', 'js', 'vendor', 'jquery-3.6.0.min.js')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:30:30 --> Trying to access array offset on value of type null
+in APPPATH\Views\pages\videoplayer.php on line 15.
+ 1 APPPATH\Views\pages\videoplayer.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\videoplayer.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\videoplayer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/videoplayer', [], true)
+ 5 APPPATH\Helpers\View_helper.php(7): view('pages/videoplayer', [...])
+ 6 APPPATH\Controllers\Events\E_learning_materialController.php(36): renderPage('videoplayer', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->videoCourseMaterial('assets', 'js', 'app.min.js')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:30:30 --> Trying to access array offset on value of type null
+in APPPATH\Views\pages\videoplayer.php on line 15.
+ 1 APPPATH\Views\pages\videoplayer.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\videoplayer.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\videoplayer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/videoplayer', [], true)
+ 5 APPPATH\Helpers\View_helper.php(7): view('pages/videoplayer', [...])
+ 6 APPPATH\Controllers\Events\E_learning_materialController.php(36): renderPage('videoplayer', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->videoCourseMaterial('assets', 'img', 'IAOI Logo _ PNG-1.png')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:31:37 --> Trying to access array offset on value of type null
+in APPPATH\Views\pages\videoplayer.php on line 15.
+ 1 APPPATH\Views\pages\videoplayer.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\videoplayer.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\videoplayer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/videoplayer', [], true)
+ 5 APPPATH\Helpers\View_helper.php(7): view('pages/videoplayer', [...])
+ 6 APPPATH\Controllers\Events\E_learning_materialController.php(36): renderPage('videoplayer', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->videoCourseMaterial('assets', 'js', 'vendor', 'jquery-3.6.0.min.js')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:31:37 --> Trying to access array offset on value of type null
+in APPPATH\Views\pages\videoplayer.php on line 15.
+ 1 APPPATH\Views\pages\videoplayer.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\videoplayer.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\videoplayer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/videoplayer', [], true)
+ 5 APPPATH\Helpers\View_helper.php(7): view('pages/videoplayer', [...])
+ 6 APPPATH\Controllers\Events\E_learning_materialController.php(36): renderPage('videoplayer', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->videoCourseMaterial('assets', 'js', 'app.min.js')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:31:38 --> Trying to access array offset on value of type null
+in APPPATH\Views\pages\videoplayer.php on line 15.
+ 1 APPPATH\Views\pages\videoplayer.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\videoplayer.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\videoplayer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/videoplayer', [], true)
+ 5 APPPATH\Helpers\View_helper.php(7): view('pages/videoplayer', [...])
+ 6 APPPATH\Controllers\Events\E_learning_materialController.php(36): renderPage('videoplayer', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->videoCourseMaterial('assets', 'js', 'main.js')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:31:38 --> Trying to access array offset on value of type null
+in APPPATH\Views\pages\videoplayer.php on line 15.
+ 1 APPPATH\Views\pages\videoplayer.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\videoplayer.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\videoplayer.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/videoplayer', [], true)
+ 5 APPPATH\Helpers\View_helper.php(7): view('pages/videoplayer', [...])
+ 6 APPPATH\Controllers\Events\E_learning_materialController.php(36): renderPage('videoplayer', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->videoCourseMaterial('assets', 'img', 'IAOI Logo _ PNG-1.png')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:31:56 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'img', 'IAOI Logo _ PNG-1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:31:56 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'js', 'main.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:31:56 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'js', 'vendor', 'jquery-3.6.0.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:31:56 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'js', 'app.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:32:11 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'js', 'app.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:32:11 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'js', 'main.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:32:11 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'js', 'vendor', 'jquery-3.6.0.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:32:11 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'img', 'IAOI Logo _ PNG-1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:36:12 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'img', 'IAOI Logo _ PNG-1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:36:12 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'js', 'vendor', 'jquery-3.6.0.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:36:12 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'js', 'main.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:36:12 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Events\E_learning_materialController.php on line 30.
+ 1 APPPATH\Controllers\Events\E_learning_materialController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learning_materialController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('assets', 'js', 'app.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-26 06:36:14 --> Cannot access offset of type string on string
+in APPPATH\Views\pages\speakers.php on line 58.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/speakers', [], true)
+ 4 APPPATH\Helpers\View_helper.php(7): view('pages/speakers', [...])
+ 5 APPPATH\Controllers\Events\E_learningController.php(66): renderPage('speakers', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learningController->speaker('2')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learningController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-26 06:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-26 06:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

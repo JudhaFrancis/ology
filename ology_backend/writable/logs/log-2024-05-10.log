@@ -1,0 +1,43 @@
+CRITICAL - 2024-05-10 05:36:32 --> Undefined variable $memData
+in APPPATH\Controllers\Events\E_learningController.php on line 60.
+ 1 APPPATH\Controllers\Events\E_learningController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $memData', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learningController.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learningController->speaker('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learningController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 05:49:43 --> Undefined variable $memData
+in APPPATH\Controllers\Events\E_learningController.php on line 60.
+ 1 APPPATH\Controllers\Events\E_learningController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $memData', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learningController.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learningController->speaker('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learningController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 05:50:41 --> Undefined variable $memData
+in APPPATH\Controllers\Events\E_learningController.php on line 60.
+ 1 APPPATH\Controllers\Events\E_learningController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $memData', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learningController.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learningController->speaker('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learningController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 06:42:17 --> Undefined constant "f"
+in APPPATH\Views\pages\e-learning-course-active.php on line 64.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/e-learning-course-active', [], true)
+ 4 APPPATH\Helpers\View_helper.php(7): view('pages/e-learning-course-active', [...])
+ 5 APPPATH\Controllers\Events\E_learning_materialController.php(31): renderPage('e-learning-course-active', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 06:52:25 --> Undefined constant "f"
+in APPPATH\Views\pages\e-learning-course-active.php on line 64.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/e-learning-course-active', [], true)
+ 4 APPPATH\Helpers\View_helper.php(7): view('pages/e-learning-course-active', [...])
+ 5 APPPATH\Controllers\Events\E_learning_materialController.php(31): renderPage('e-learning-course-active', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learning_materialController->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learning_materialController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()

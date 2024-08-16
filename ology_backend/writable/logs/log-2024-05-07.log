@@ -1,0 +1,470 @@
+ERROR - 2024-05-07 08:54:37 --> mysqli_sql_exception: Table 'ssamtorg_iaoi.event' doesn't exist in C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\app\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\app\Controllers\Events\EventsController.php(37): App\Infrastructure\Persistence\Events\SQLEventRepository->findAll()
+#8 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\CodeIgniter.php(932): Core\Controllers\Events\EventsController->events()
+#9 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+#10 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-07 08:54:37 --> Table 'ssamtorg_iaoi.event' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Events\EventsController.php(37): App\Infrastructure\Persistence\Events\SQLEventRepository->findAll()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->events()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-07 09:02:11 --> mysqli_sql_exception: Table 'ssamtorg_iaoi.event' doesn't exist in C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\app\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\app\Controllers\Events\EventsController.php(37): App\Infrastructure\Persistence\Events\SQLEventRepository->findAll()
+#8 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\CodeIgniter.php(932): Core\Controllers\Events\EventsController->events()
+#9 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+#10 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-07 09:02:11 --> Table 'ssamtorg_iaoi.event' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Events\EventsController.php(37): App\Infrastructure\Persistence\Events\SQLEventRepository->findAll()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->events()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-07 09:04:04 --> mysqli_sql_exception: Table 'ssamtorg_iaoi.event' doesn't exist in C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\app\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\app\Controllers\Events\EventsController.php(37): App\Infrastructure\Persistence\Events\SQLEventRepository->findAll()
+#8 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\CodeIgniter.php(932): Core\Controllers\Events\EventsController->events()
+#9 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+#10 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-07 09:04:04 --> Table 'ssamtorg_iaoi.event' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Events\EventsController.php(37): App\Infrastructure\Persistence\Events\SQLEventRepository->findAll()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->events()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-07 09:12:20 --> mysqli_sql_exception: Table 'ssamtorg_iaoi.event' doesn't exist in C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\app\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\app\Controllers\Events\EventsController.php(37): App\Infrastructure\Persistence\Events\SQLEventRepository->findAll()
+#8 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\CodeIgniter.php(932): Core\Controllers\Events\EventsController->events()
+#9 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+#10 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-07 09:12:20 --> Table 'ssamtorg_iaoi.event' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Events\EventsController.php(37): App\Infrastructure\Persistence\Events\SQLEventRepository->findAll()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->events()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-07 09:14:36 --> mysqli_sql_exception: Table 'ssamtorg_iaoi.event' doesn't exist in C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\app\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\app\Controllers\Events\EventsController.php(37): App\Infrastructure\Persistence\Events\SQLEventRepository->findAll()
+#8 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\CodeIgniter.php(932): Core\Controllers\Events\EventsController->events()
+#9 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+#10 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-07 09:14:36 --> Table 'ssamtorg_iaoi.event' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Events\EventsController.php(37): App\Infrastructure\Persistence\Events\SQLEventRepository->findAll()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->events()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-07 09:15:22 --> mysqli_sql_exception: Table 'ssamtorg_iaoi.event' doesn't exist in C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\app\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\app\Controllers\Events\EventsController.php(37): App\Infrastructure\Persistence\Events\SQLEventRepository->findAll()
+#8 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\CodeIgniter.php(932): Core\Controllers\Events\EventsController->events()
+#9 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+#10 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-07 09:15:22 --> Table 'ssamtorg_iaoi.event' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Events\EventsController.php(37): App\Infrastructure\Persistence\Events\SQLEventRepository->findAll()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->events()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-07 09:23:44 --> mysqli_sql_exception: Table 'ssamtorg_iaoi.event' doesn't exist in C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\app\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\app\Controllers\Events\EventsController.php(37): App\Infrastructure\Persistence\Events\SQLEventRepository->findAll()
+#8 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\CodeIgniter.php(932): Core\Controllers\Events\EventsController->events()
+#9 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+#10 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-07 09:23:44 --> Table 'ssamtorg_iaoi.event' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Events\EventsController.php(37): App\Infrastructure\Persistence\Events\SQLEventRepository->findAll()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->events()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-07 09:48:53 --> mysqli_sql_exception: Table 'ssamtorg_iaoi.event' doesn't exist in C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\app\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\app\Controllers\Events\EventsController.php(37): App\Infrastructure\Persistence\Events\SQLEventRepository->findAll()
+#8 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\CodeIgniter.php(932): Core\Controllers\Events\EventsController->events()
+#9 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+#10 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-07 09:48:53 --> Table 'ssamtorg_iaoi.event' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Events\EventsController.php(37): App\Infrastructure\Persistence\Events\SQLEventRepository->findAll()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->events()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-07 10:14:10 --> mysqli_sql_exception: Table 'ssamtorg_iaoi.event' doesn't exist in C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\app\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\app\Controllers\Events\EventsController.php(37): App\Infrastructure\Persistence\Events\SQLEventRepository->findAll()
+#8 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\CodeIgniter.php(932): Core\Controllers\Events\EventsController->events()
+#9 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+#10 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-07 10:14:10 --> Table 'ssamtorg_iaoi.event' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Events\EventsController.php(37): App\Infrastructure\Persistence\Events\SQLEventRepository->findAll()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->events()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-07 10:15:31 --> mysqli_sql_exception: Table 'ssamtorg_iaoi.event' doesn't exist in C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\app\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\app\Controllers\Events\EventsController.php(37): App\Infrastructure\Persistence\Events\SQLEventRepository->findAll()
+#8 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\CodeIgniter.php(932): Core\Controllers\Events\EventsController->events()
+#9 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+#10 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-07 10:15:31 --> Table 'ssamtorg_iaoi.event' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Events\EventsController.php(37): App\Infrastructure\Persistence\Events\SQLEventRepository->findAll()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->events()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-07 10:15:51 --> mysqli_sql_exception: Table 'ssamtorg_iaoi.event' doesn't exist in C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\app\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\app\Controllers\Events\EventsController.php(37): App\Infrastructure\Persistence\Events\SQLEventRepository->findAll()
+#8 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\CodeIgniter.php(932): Core\Controllers\Events\EventsController->events()
+#9 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+#10 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\iaoi_new\iaoi_full\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-07 10:15:51 --> Table 'ssamtorg_iaoi.event' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `event`
+ORDER BY `created_at` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Infrastructure\Persistence\DMLPersistence.php(107): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Events\EventsController.php(37): App\Infrastructure\Persistence\Events\SQLEventRepository->findAll()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->events()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-07 10:28:26 --> Undefined variable $memData
+in APPPATH\Controllers\Events\E_learningController.php on line 60.
+ 1 APPPATH\Controllers\Events\E_learningController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $memData', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learningController.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learningController->speaker('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learningController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-07 10:35:07 --> Undefined variable $memData
+in APPPATH\Controllers\Events\E_learningController.php on line 60.
+ 1 APPPATH\Controllers\Events\E_learningController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $memData', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learningController.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learningController->speaker('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learningController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-07 10:38:31 --> Undefined variable $memData
+in APPPATH\Controllers\Events\E_learningController.php on line 60.
+ 1 APPPATH\Controllers\Events\E_learningController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $memData', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learningController.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learningController->speaker('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learningController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-07 10:41:25 --> Undefined variable $memData
+in APPPATH\Controllers\Events\E_learningController.php on line 60.
+ 1 APPPATH\Controllers\Events\E_learningController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $memData', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learningController.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learningController->speaker('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learningController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-07 10:45:10 --> Undefined variable $reqData
+in APPPATH\Controllers\Events\E_learningController.php on line 60.
+ 1 APPPATH\Controllers\Events\E_learningController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reqData', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learningController.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learningController->speaker('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learningController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-07 10:45:14 --> Undefined variable $reqData
+in APPPATH\Controllers\Events\E_learningController.php on line 60.
+ 1 APPPATH\Controllers\Events\E_learningController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reqData', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learningController.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learningController->speaker('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learningController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-07 10:47:40 --> Undefined variable $memData
+in APPPATH\Controllers\Events\E_learningController.php on line 60.
+ 1 APPPATH\Controllers\Events\E_learningController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $memData', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learningController.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learningController->speaker('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learningController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-07 10:48:53 --> Undefined variable $memData
+in APPPATH\Controllers\Events\E_learningController.php on line 60.
+ 1 APPPATH\Controllers\Events\E_learningController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $memData', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learningController.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learningController->speaker('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learningController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-07 10:49:37 --> Undefined variable $memData
+in APPPATH\Controllers\Events\E_learningController.php on line 60.
+ 1 APPPATH\Controllers\Events\E_learningController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $memData', 'C:\\xampp\\htdocs\\iaoi_new\\iaoi_full\\backend\\app\\Controllers\\Events\\E_learningController.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\E_learningController->speaker('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\E_learningController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
