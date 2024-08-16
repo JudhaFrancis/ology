@@ -1,0 +1,297 @@
+INFO - 2024-06-05 04:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 05:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 05:19:54 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(77): CodeIgniter\Model->update([...])
+ 4 APPPATH\Controllers\Events\EventsController.php(95): App\Infrastructure\Persistence\Events\SQLEventRepository->updateById([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->Update('14')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 05:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 05:21:06 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(77): CodeIgniter\Model->update([...])
+ 4 APPPATH\Controllers\Events\EventsController.php(95): App\Infrastructure\Persistence\Events\SQLEventRepository->updateById([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->Update('14')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 05:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 05:21:18 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(77): CodeIgniter\Model->update([...])
+ 4 APPPATH\Controllers\Events\EventsController.php(95): App\Infrastructure\Persistence\Events\SQLEventRepository->updateById([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->Update('14')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 05:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 05:37:47 --> Undefined variable $updatedata
+in APPPATH\Controllers\Events\EventsController.php on line 91.
+ 1 APPPATH\Controllers\Events\EventsController.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $updatedata', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Controllers\\Events\\EventsController.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->Update('14')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 05:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 05:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 05:39:05 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(77): CodeIgniter\Model->update([...])
+ 4 APPPATH\Controllers\Events\EventsController.php(95): App\Infrastructure\Persistence\Events\SQLEventRepository->updateById([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->Update('14')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 05:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 05:40:03 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(77): CodeIgniter\Model->update([...])
+ 4 APPPATH\Controllers\Events\EventsController.php(95): App\Infrastructure\Persistence\Events\SQLEventRepository->updateById([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->Update('14')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 05:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 05:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 05:48:10 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(77): CodeIgniter\Model->update([...])
+ 4 APPPATH\Controllers\Events\EventsController.php(95): App\Infrastructure\Persistence\Events\SQLEventRepository->updateById([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->Update('14')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 06:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 06:01:21 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(77): CodeIgniter\Model->update([...])
+ 4 APPPATH\Controllers\Events\EventsController.php(96): App\Infrastructure\Persistence\Events\SQLEventRepository->updateById([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->Update('14')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 06:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 06:12:01 --> Call to undefined method App\Infrastructure\Persistence\Events\SQLEventRepository::updateByIdupdate()
+in APPPATH\Controllers\Events\EventsController.php on line 96.
+ 1 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->Update('14')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 06:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 06:12:56 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(77): CodeIgniter\Model->update([...])
+ 4 APPPATH\Controllers\Events\EventsController.php(96): App\Infrastructure\Persistence\Events\SQLEventRepository->updateById([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->Update('14')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 06:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 06:22:55 --> Too few arguments to function Core\Controllers\Events\EventsController::Update(), 1 passed in C:\xampp\htdocs\iaoi\iaoi_full\backend\system\CodeIgniter.php on line 932 and exactly 2 expected
+in APPPATH\Controllers\Events\EventsController.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->Update('14')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 06:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 06:25:46 --> Too few arguments to function Core\Controllers\Events\EventsController::Update(), 1 passed in C:\xampp\htdocs\iaoi\iaoi_full\backend\system\CodeIgniter.php on line 932 and exactly 2 expected
+in APPPATH\Controllers\Events\EventsController.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->Update('14')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 06:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 06:26:05 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(90): CodeIgniter\Model->update()
+ 4 APPPATH\Controllers\Events\EventsController.php(95): App\Infrastructure\Persistence\Events\SQLEventRepository->update([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->Update('14')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 06:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 06:27:05 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(90): CodeIgniter\Model->update()
+ 4 APPPATH\Controllers\Events\EventsController.php(95): App\Infrastructure\Persistence\Events\SQLEventRepository->update([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->Update('14')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 06:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 06:42:39 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(90): CodeIgniter\Model->update()
+ 4 APPPATH\Controllers\Events\EventsController.php(94): App\Infrastructure\Persistence\Events\SQLEventRepository->update([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->Update('14')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 06:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 06:43:56 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(90): CodeIgniter\Model->update()
+ 4 APPPATH\Controllers\Events\EventsController.php(94): App\Infrastructure\Persistence\Events\SQLEventRepository->update([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->Update('14')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 07:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 07:35:32 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(90): CodeIgniter\Model->update()
+ 4 APPPATH\Controllers\Events\EventsController.php(94): App\Infrastructure\Persistence\Events\SQLEventRepository->update([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->Update('14')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 07:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 07:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 07:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 07:35:56 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(90): CodeIgniter\Model->update()
+ 4 APPPATH\Controllers\Events\EventsController.php(94): App\Infrastructure\Persistence\Events\SQLEventRepository->update([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->Update('15')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 07:36:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 07:37:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 07:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 07:37:08 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(90): CodeIgniter\Model->update()
+ 4 APPPATH\Controllers\Events\EventsController.php(94): App\Infrastructure\Persistence\Events\SQLEventRepository->update([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->Update('14')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 09:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 09:04:38 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(90): CodeIgniter\Model->update()
+ 4 APPPATH\Controllers\Events\EventsController.php(94): App\Infrastructure\Persistence\Events\SQLEventRepository->update([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->Update('14')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 09:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 09:51:48 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(90): CodeIgniter\Model->update()
+ 4 APPPATH\Controllers\Events\EventsController.php(97): App\Infrastructure\Persistence\Events\SQLEventRepository->update([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->Update('14')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 09:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 09:51:54 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(90): CodeIgniter\Model->update()
+ 4 APPPATH\Controllers\Events\EventsController.php(97): App\Infrastructure\Persistence\Events\SQLEventRepository->update([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->Update('14')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 09:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 10:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 10:15:10 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(90): CodeIgniter\Model->update()
+ 4 APPPATH\Controllers\Events\EventsController.php(94): App\Infrastructure\Persistence\Events\SQLEventRepository->update([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->Update('14')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 11:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 11:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 11:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 11:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 11:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 11:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-05 11:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 11:05:15 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(90): CodeIgniter\Model->update()
+ 4 APPPATH\Controllers\Events\EventsController.php(94): App\Infrastructure\Persistence\Events\SQLEventRepository->update([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->Update('14')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 11:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 11:16:29 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(90): CodeIgniter\Model->update()
+ 4 APPPATH\Controllers\Events\EventsController.php(94): App\Infrastructure\Persistence\Events\SQLEventRepository->update([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->Update('14')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 11:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 11:16:36 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(90): CodeIgniter\Model->update()
+ 4 APPPATH\Controllers\Events\EventsController.php(94): App\Infrastructure\Persistence\Events\SQLEventRepository->update([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->Update('14')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-05 12:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-05 12:31:56 --> Undefined property: CodeIgniter\View\View::$PatientModel
+in APPPATH\Views\pages\login.php on line 85.
+ 1 APPPATH\Views\pages\login.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$PatientModel', 'C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\login.php', 85)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\iaoi\\iaoi_full\\backend\\app\\Views\\pages\\login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/login', [], true)
+ 5 APPPATH\Controllers\Home.php(82): view('pages/login')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Home->login()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()

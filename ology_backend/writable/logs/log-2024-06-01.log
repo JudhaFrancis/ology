@@ -1,0 +1,450 @@
+INFO - 2024-06-01 04:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 04:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 04:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 04:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 04:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 04:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 04:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 04:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 04:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 04:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 04:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 04:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 04:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 04:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 05:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 05:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 05:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 05:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 05:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 05:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 05:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 05:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 05:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 05:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 05:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 05:08:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 05:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 05:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 05:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 05:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 05:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 05:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-01 06:03:14 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(90): CodeIgniter\Model->update()
+ 4 APPPATH\Controllers\Events\EventsController.php(95): App\Infrastructure\Persistence\Events\SQLEventRepository->update([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->delete('15')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-01 06:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-01 06:03:48 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(90): CodeIgniter\Model->update()
+ 4 APPPATH\Controllers\Events\EventsController.php(95): App\Infrastructure\Persistence\Events\SQLEventRepository->update([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->delete('15')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-01 06:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-01 06:14:02 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(90): CodeIgniter\Model->update()
+ 4 APPPATH\Controllers\Events\EventsController.php(94): App\Infrastructure\Persistence\Events\SQLEventRepository->update([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->delete('15')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-01 06:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-01 06:14:04 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(90): CodeIgniter\Model->update()
+ 4 APPPATH\Controllers\Events\EventsController.php(94): App\Infrastructure\Persistence\Events\SQLEventRepository->update([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->delete('15')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-01 06:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-01 06:14:06 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(90): CodeIgniter\Model->update()
+ 4 APPPATH\Controllers\Events\EventsController.php(94): App\Infrastructure\Persistence\Events\SQLEventRepository->update([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->delete('15')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-01 06:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-01 06:14:25 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(90): CodeIgniter\Model->update()
+ 4 APPPATH\Controllers\Events\EventsController.php(94): App\Infrastructure\Persistence\Events\SQLEventRepository->update([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->delete('15')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-01 06:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-01 06:14:51 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(90): CodeIgniter\Model->update()
+ 4 APPPATH\Controllers\Events\EventsController.php(94): App\Infrastructure\Persistence\Events\SQLEventRepository->update([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->delete('15')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-01 06:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:19:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-01 06:27:13 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(90): CodeIgniter\Model->update()
+ 4 APPPATH\Controllers\Events\EventsController.php(94): App\Infrastructure\Persistence\Events\SQLEventRepository->update([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->delete('15')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-01 06:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-01 06:27:50 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(90): CodeIgniter\Model->update()
+ 4 APPPATH\Controllers\Events\EventsController.php(94): App\Infrastructure\Persistence\Events\SQLEventRepository->update([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->delete('15')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-01 06:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-01 06:29:04 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(77): CodeIgniter\Model->update([...])
+ 4 APPPATH\Controllers\Events\EventsController.php(94): App\Infrastructure\Persistence\Events\SQLEventRepository->updateById([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->delete('15')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-01 06:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-01 06:30:18 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(77): CodeIgniter\Model->update([...])
+ 4 APPPATH\Controllers\Events\EventsController.php(94): App\Infrastructure\Persistence\Events\SQLEventRepository->updateById([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->delete('15')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-01 06:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-01 06:31:17 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(77): CodeIgniter\Model->update([...])
+ 4 APPPATH\Controllers\Events\EventsController.php(94): App\Infrastructure\Persistence\Events\SQLEventRepository->updateById([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->delete('15')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-01 06:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-01 06:32:46 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(77): CodeIgniter\Model->update([...])
+ 4 APPPATH\Controllers\Events\EventsController.php(94): App\Infrastructure\Persistence\Events\SQLEventRepository->updateById([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->delete('14')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-01 06:32:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:32:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:32:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-01 06:33:47 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(77): CodeIgniter\Model->update([...])
+ 4 APPPATH\Controllers\Events\EventsController.php(94): App\Infrastructure\Persistence\Events\SQLEventRepository->updateById([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->delete('14')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-01 06:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-01 06:35:32 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Infrastructure\Persistence\DMLPersistence.php(77): CodeIgniter\Model->update([...])
+ 4 APPPATH\Controllers\Events\EventsController.php(94): App\Infrastructure\Persistence\Events\SQLEventRepository->updateById([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\Events\EventsController->delete('14')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\Events\EventsController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-01 06:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:49:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:56:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-01 06:56:02 --> mysqli_sql_exception: Duplicate entry 'admin@gmail.com' for key 'email_id_unique' in C:\xampp\htdocs\iaoi\iaoi_full\backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `me...', 0)
+#1 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `me...')
+#2 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `me...')
+#3 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#4 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\iaoi\iaoi_full\backend\app\Infrastructure\Persistence\DMLPersistence.php(66): CodeIgniter\Model->insert(Object(App\Domain\Member\Member_request))
+#8 C:\xampp\htdocs\iaoi\iaoi_full\backend\Module\Master\Controllers\Member\Member_requestController.php(31): App\Infrastructure\Persistence\Member\SQLMember_requestRepository->insert(Object(App\Domain\Member\Member_request))
+#9 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\CodeIgniter.php(932): App\Controllers\Member\Member_requestController->memberSave()
+#10 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member\Member_requestController))
+#11 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\iaoi\iaoi_full\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-06-01 06:56:02 --> Duplicate entry 'admin@gmail.com' for key 'email_id_unique'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `member_request` (`first_name`, `last_name`, `email_id`, `address`, `country`, `state`, `city`, `pincode`, `field`, `reg_no`, `dob`, `college_name`, `status`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'admin@gmail.com\', NULL, NULL, \'Choose...\', \'a\', NULL, NULL, NULL, \'2024-06-11T18:30:00.000Z\', \'\', 2, \'2024-06-01 06:56:02\', \'2024-06-01 06:56:02\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `member_request` (`first_name`, `last_name`, `email_id`, `address`, `country`, `state`, `city`, `pincode`, `field`, `reg_no`, `dob`, `college_name`, `status`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'admin@gmail.com\', NULL, NULL, \'Choose...\', \'a\', NULL, NULL, NULL, \'2024-06-11T18:30:00.000Z\', \'\', 2, \'2024-06-01 06:56:02\', \'2024-06-01 06:56:02\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `member_request` (`first_name`, `last_name`, `email_id`, `address`, `country`, `state`, `city`, `pincode`, `field`, `reg_no`, `dob`, `college_name`, `status`, `created_at`, `updated_at`) VALUES (NULL, NULL, \'admin@gmail.com\', NULL, NULL, \'Choose...\', \'a\', NULL, NULL, NULL, \'2024-06-11T18:30:00.000Z\', \'\', 2, \'2024-06-01 06:56:02\', \'2024-06-01 06:56:02\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `member_request` (`first_name`, `last_name`, `email_id`, `address`, `country`, `state`, `city`, `pincode`, `field`, `reg_no`, `dob`, `college_name`, `status`, `created_at`, `updated_at`) VALUES (:first_name:, :last_name:, :email_id:, :address:, :country:, :state:, :city:, :pincode:, :field:, :reg_no:, :dob:, :college_name:, :status:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Infrastructure\Persistence\DMLPersistence.php(66): CodeIgniter\Model->insert(Object(App\Domain\Member\Member_request))
+ 9 FCPATH\Module\Master\Controllers\Member\Member_requestController.php(31): App\Infrastructure\Persistence\Member\SQLMember_requestRepository->insert(Object(App\Domain\Member\Member_request))
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Member\Member_requestController->memberSave()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member\Member_requestController))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-01 06:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 06:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-01 06:58:37 --> mysqli_sql_exception: Unknown column 'member_id' in 'order clause' in C:\xampp\htdocs\iaoi\iaoi_full\backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(10, 0)
+#6 C:\xampp\htdocs\iaoi\iaoi_full\backend\app\Infrastructure\Persistence\DMLPersistence.php(381): CodeIgniter\BaseModel->findAll(10, 0)
+#7 C:\xampp\htdocs\iaoi\iaoi_full\backend\app\Infrastructure\Persistence\DMLPersistence.php(73): App\Infrastructure\Persistence\Member\SQLMember_requestRepository->paginationQuery(Object(stdClass), Array)
+#8 C:\xampp\htdocs\iaoi\iaoi_full\backend\Module\Master\Controllers\Member\Member_requestController.php(45): App\Infrastructure\Persistence\Member\SQLMember_requestRepository->findAllPagination(Object(stdClass), true)
+#9 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\CodeIgniter.php(932): App\Controllers\Member\Member_requestController->getList('{"page":0,"rows...')
+#10 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member\Member_requestController))
+#11 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\iaoi\iaoi_full\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-06-01 06:58:37 --> Unknown column 'member_id' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `member_request`
+WHERE `member_request`.`deleted_at` IS NULL
+ORDER BY member_id ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `member_request`
+WHERE `member_request`.`deleted_at` IS NULL
+ORDER BY member_id ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `member_request`
+WHERE `member_request`.`deleted_at` IS NULL
+ORDER BY member_id ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `member_request`
+WHERE `member_request`.`deleted_at` IS NULL
+ORDER BY member_id ASC
+ LIMIT 10', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(10, 0)
+ 7 APPPATH\Infrastructure\Persistence\DMLPersistence.php(381): CodeIgniter\BaseModel->findAll(10, 0)
+ 8 APPPATH\Infrastructure\Persistence\DMLPersistence.php(73): App\Infrastructure\Persistence\Member\SQLMember_requestRepository->paginationQuery(Object(stdClass), [])
+ 9 FCPATH\Module\Master\Controllers\Member\Member_requestController.php(45): App\Infrastructure\Persistence\Member\SQLMember_requestRepository->findAllPagination(Object(stdClass), true)
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Member\Member_requestController->getList('{"page":0,"rows":10,"queryParams":[],"sort":[{"colName":"member_id","sortOrder":"asc"}]}')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member\Member_requestController))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-01 06:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-01 06:58:37 --> mysqli_sql_exception: Unknown column 'member_id' in 'order clause' in C:\xampp\htdocs\iaoi\iaoi_full\backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(10, 0)
+#6 C:\xampp\htdocs\iaoi\iaoi_full\backend\app\Infrastructure\Persistence\DMLPersistence.php(381): CodeIgniter\BaseModel->findAll(10, 0)
+#7 C:\xampp\htdocs\iaoi\iaoi_full\backend\app\Infrastructure\Persistence\DMLPersistence.php(73): App\Infrastructure\Persistence\Member\SQLMember_requestRepository->paginationQuery(Object(stdClass), Array)
+#8 C:\xampp\htdocs\iaoi\iaoi_full\backend\Module\Master\Controllers\Member\Member_requestController.php(45): App\Infrastructure\Persistence\Member\SQLMember_requestRepository->findAllPagination(Object(stdClass), true)
+#9 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\CodeIgniter.php(932): App\Controllers\Member\Member_requestController->getList('{"page":0,"rows...')
+#10 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member\Member_requestController))
+#11 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\iaoi\iaoi_full\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-06-01 06:58:37 --> Unknown column 'member_id' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `member_request`
+WHERE `member_request`.`deleted_at` IS NULL
+ORDER BY member_id DESC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `member_request`
+WHERE `member_request`.`deleted_at` IS NULL
+ORDER BY member_id DESC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `member_request`
+WHERE `member_request`.`deleted_at` IS NULL
+ORDER BY member_id DESC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `member_request`
+WHERE `member_request`.`deleted_at` IS NULL
+ORDER BY member_id DESC
+ LIMIT 10', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(10, 0)
+ 7 APPPATH\Infrastructure\Persistence\DMLPersistence.php(381): CodeIgniter\BaseModel->findAll(10, 0)
+ 8 APPPATH\Infrastructure\Persistence\DMLPersistence.php(73): App\Infrastructure\Persistence\Member\SQLMember_requestRepository->paginationQuery(Object(stdClass), [])
+ 9 FCPATH\Module\Master\Controllers\Member\Member_requestController.php(45): App\Infrastructure\Persistence\Member\SQLMember_requestRepository->findAllPagination(Object(stdClass), true)
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Member\Member_requestController->getList('{"page":0,"rows":10,"queryParams":[],"sort":[{"colName":"member_id","sortOrder":"desc"}]}')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member\Member_requestController))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-01 07:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 07:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 07:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 07:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 07:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 07:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 07:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 07:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-01 07:08:21 --> mysqli_sql_exception: Duplicate entry 'admin@gmail.com' for key 'email_id_unique' in C:\xampp\htdocs\iaoi\iaoi_full\backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `me...', 0)
+#1 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `me...')
+#2 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `me...')
+#3 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#4 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\iaoi\iaoi_full\backend\app\Infrastructure\Persistence\DMLPersistence.php(66): CodeIgniter\Model->insert(Object(App\Domain\Member\Member_request))
+#8 C:\xampp\htdocs\iaoi\iaoi_full\backend\Module\Master\Controllers\Member\Member_requestController.php(31): App\Infrastructure\Persistence\Member\SQLMember_requestRepository->insert(Object(App\Domain\Member\Member_request))
+#9 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\CodeIgniter.php(932): App\Controllers\Member\Member_requestController->memberSave()
+#10 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member\Member_requestController))
+#11 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\iaoi\iaoi_full\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-06-01 07:08:21 --> Duplicate entry 'admin@gmail.com' for key 'email_id_unique'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `member_request` (`first_name`, `last_name`, `email_id`, `address`, `country`, `state`, `city`, `pincode`, `field`, `reg_no`, `dob`, `college_name`, `status`, `created_at`, `updated_at`) VALUES (\'a\', \'a\', \'admin@gmail.com\', \'a\', \'a\', \'a\', \'a\', NULL, \'2\', \'a\', \'2024-06-26T18:30:00.000Z\', \'a\', 2, \'2024-06-01 07:08:21\', \'2024-06-01 07:08:21\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `member_request` (`first_name`, `last_name`, `email_id`, `address`, `country`, `state`, `city`, `pincode`, `field`, `reg_no`, `dob`, `college_name`, `status`, `created_at`, `updated_at`) VALUES (\'a\', \'a\', \'admin@gmail.com\', \'a\', \'a\', \'a\', \'a\', NULL, \'2\', \'a\', \'2024-06-26T18:30:00.000Z\', \'a\', 2, \'2024-06-01 07:08:21\', \'2024-06-01 07:08:21\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `member_request` (`first_name`, `last_name`, `email_id`, `address`, `country`, `state`, `city`, `pincode`, `field`, `reg_no`, `dob`, `college_name`, `status`, `created_at`, `updated_at`) VALUES (\'a\', \'a\', \'admin@gmail.com\', \'a\', \'a\', \'a\', \'a\', NULL, \'2\', \'a\', \'2024-06-26T18:30:00.000Z\', \'a\', 2, \'2024-06-01 07:08:21\', \'2024-06-01 07:08:21\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `member_request` (`first_name`, `last_name`, `email_id`, `address`, `country`, `state`, `city`, `pincode`, `field`, `reg_no`, `dob`, `college_name`, `status`, `created_at`, `updated_at`) VALUES (:first_name:, :last_name:, :email_id:, :address:, :country:, :state:, :city:, :pincode:, :field:, :reg_no:, :dob:, :college_name:, :status:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Infrastructure\Persistence\DMLPersistence.php(66): CodeIgniter\Model->insert(Object(App\Domain\Member\Member_request))
+ 9 FCPATH\Module\Master\Controllers\Member\Member_requestController.php(31): App\Infrastructure\Persistence\Member\SQLMember_requestRepository->insert(Object(App\Domain\Member\Member_request))
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Member\Member_requestController->memberSave()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member\Member_requestController))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-01 07:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-01 07:08:27 --> mysqli_sql_exception: Duplicate entry 'admin@gmail.com' for key 'email_id_unique' in C:\xampp\htdocs\iaoi\iaoi_full\backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `me...', 0)
+#1 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `me...')
+#2 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `me...')
+#3 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#4 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\iaoi\iaoi_full\backend\app\Infrastructure\Persistence\DMLPersistence.php(66): CodeIgniter\Model->insert(Object(App\Domain\Member\Member_request))
+#8 C:\xampp\htdocs\iaoi\iaoi_full\backend\Module\Master\Controllers\Member\Member_requestController.php(31): App\Infrastructure\Persistence\Member\SQLMember_requestRepository->insert(Object(App\Domain\Member\Member_request))
+#9 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\CodeIgniter.php(932): App\Controllers\Member\Member_requestController->memberSave()
+#10 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member\Member_requestController))
+#11 C:\xampp\htdocs\iaoi\iaoi_full\backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\iaoi\iaoi_full\backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-06-01 07:08:27 --> Duplicate entry 'admin@gmail.com' for key 'email_id_unique'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `member_request` (`first_name`, `last_name`, `email_id`, `address`, `country`, `state`, `city`, `pincode`, `field`, `reg_no`, `dob`, `college_name`, `status`, `created_at`, `updated_at`) VALUES (\'a\', \'a\', \'admin@gmail.com\', \'a\', \'a\', \'a\', \'a\', NULL, \'2\', \'a\', \'2024-06-26T18:30:00.000Z\', \'a\', 2, \'2024-06-01 07:08:27\', \'2024-06-01 07:08:27\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `member_request` (`first_name`, `last_name`, `email_id`, `address`, `country`, `state`, `city`, `pincode`, `field`, `reg_no`, `dob`, `college_name`, `status`, `created_at`, `updated_at`) VALUES (\'a\', \'a\', \'admin@gmail.com\', \'a\', \'a\', \'a\', \'a\', NULL, \'2\', \'a\', \'2024-06-26T18:30:00.000Z\', \'a\', 2, \'2024-06-01 07:08:27\', \'2024-06-01 07:08:27\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `member_request` (`first_name`, `last_name`, `email_id`, `address`, `country`, `state`, `city`, `pincode`, `field`, `reg_no`, `dob`, `college_name`, `status`, `created_at`, `updated_at`) VALUES (\'a\', \'a\', \'admin@gmail.com\', \'a\', \'a\', \'a\', \'a\', NULL, \'2\', \'a\', \'2024-06-26T18:30:00.000Z\', \'a\', 2, \'2024-06-01 07:08:27\', \'2024-06-01 07:08:27\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `member_request` (`first_name`, `last_name`, `email_id`, `address`, `country`, `state`, `city`, `pincode`, `field`, `reg_no`, `dob`, `college_name`, `status`, `created_at`, `updated_at`) VALUES (:first_name:, :last_name:, :email_id:, :address:, :country:, :state:, :city:, :pincode:, :field:, :reg_no:, :dob:, :college_name:, :status:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Infrastructure\Persistence\DMLPersistence.php(66): CodeIgniter\Model->insert(Object(App\Domain\Member\Member_request))
+ 9 FCPATH\Module\Master\Controllers\Member\Member_requestController.php(31): App\Infrastructure\Persistence\Member\SQLMember_requestRepository->insert(Object(App\Domain\Member\Member_request))
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Member\Member_requestController->memberSave()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member\Member_requestController))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-01 07:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 07:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 07:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 07:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-01 08:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
