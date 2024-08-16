@@ -196,6 +196,11 @@ class Ion_auth_model extends CI_Model
 	 * @var object
 	 */
 	protected $db;
+	protected $identity_column;
+    protected $join;
+    protected $hash_method;
+    protected $message_start_delimiter;
+    protected $message_end_delimiter;
 
 	public function __construct()
 	{
