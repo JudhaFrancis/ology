@@ -24,10 +24,8 @@
             </div>
                
                 <div class="text-center">
-                    <a href="http://localhost/ology/ology/ology_admin/auth/login">   <button class="btn-sec mt-4" >Admin login</button></a>  
+                    <a href="http://localhost/ology/ology_admin/auth/login">   <button class="btn-sec mt-4" >Admin login</button></a>  
                 </div>
-                            
-            
         </div>
        </div>
 

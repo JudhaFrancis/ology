@@ -12,7 +12,6 @@ class UserLoginModel extends Model
     {
         helper('Core\Helpers\File');
         $this->appConstant = new \Config\AppConstant();
-        $this->imageColum = array('product_img' => $this->appConstant->productImgPath);
     }
     protected $primaryKey     = 'user_id';
     protected $table          = 'user_login';

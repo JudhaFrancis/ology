@@ -851,3 +851,24 @@ INFO - 2024-08-16 07:32:48 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2024-08-16 07:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-08-16 07:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-08-16 07:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 09:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 09:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 10:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 10:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-16 10:03:17 --> Undefined property: Config\AppConstant::$productImgPath
+in APPPATH\Models\UserLoginModel.php on line 15.
+ 1 APPPATH\Models\UserLoginModel.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\AppConstant::$productImgPath', 'C:\\xampp\\htdocs\\ology\\ology_backend\\app\\Models\\UserLoginModel.php', 15)
+ 2 SYSTEMPATH\Config\Factories.php(113): Core\Models\UserLoginModel->__construct(null)
+ 3 SYSTEMPATH\Common.php(825): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 4 APPPATH\Config\Services.php(48): model('Core\\Models\\UserLoginModel')
+ 5 SYSTEMPATH\Config\BaseService.php(193): Config\Services::UserLoginRepository(false)
+ 6 APPPATH\Config\Services.php(46): CodeIgniter\Config\BaseService::getSharedInstance('userloginrepository')
+ 7 APPPATH\Controllers\Auth.php(28): Config\Services::UserLoginRepository()
+ 8 SYSTEMPATH\CodeIgniter.php(904): Core\Controllers\Auth->__construct()
+ 9 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-16 10:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 10:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 10:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-16 10:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

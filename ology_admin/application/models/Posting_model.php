@@ -30,7 +30,7 @@ class Posting_model extends CI_Model {
    public function getFeatured()
    {
       $this->db->from('posting');
-      $this->db->join('category', 'category.id = posting. id_category');
+      $this->db->join('category', 'category.id = posting. id_category','left');
       $this->db->where('featured', 'Y');
       $this->db->where('posting.is_active', 'Y');
       $this->db->order_by('posting.id', 'desc');
