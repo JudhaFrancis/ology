@@ -129,12 +129,8 @@ class CI_Session_files_driver extends CI_Session_driver implements SessionHandle
 	 * @param	string	$name		Session cookie name
 	 * @return	bool
 	 */
-<<<<<<< HEAD
-	public function open($save_path, $name)
-=======
 	#[\ReturnTypeWillChange]
 	 public function open($save_path, $name)
->>>>>>> e72e25269d796f01cdc27ada424e4cf2dc2039d1
 	{
 		if ( ! is_dir($save_path))
 		{
@@ -170,12 +166,8 @@ class CI_Session_files_driver extends CI_Session_driver implements SessionHandle
 	 * @param	string	$session_id	Session ID
 	 * @return	string	Serialized session data
 	 */
-<<<<<<< HEAD
-	public function read($session_id)
-=======
 	#[\ReturnTypeWillChange]
 	 public function read($session_id)
->>>>>>> e72e25269d796f01cdc27ada424e4cf2dc2039d1
 	{
 		// This might seem weird, but PHP 5.6 introduces session_reset(),
 		// which re-reads session data
@@ -244,10 +236,7 @@ class CI_Session_files_driver extends CI_Session_driver implements SessionHandle
 	 * @param	string	$session_data	Serialized session data
 	 * @return	bool
 	 */
-<<<<<<< HEAD
-=======
 	#[\ReturnTypeWillChange]
->>>>>>> e72e25269d796f01cdc27ada424e4cf2dc2039d1
 	public function write($session_id, $session_data)
 	{
 		// If the two IDs don't match, we have a session_regenerate_id() call
@@ -305,12 +294,8 @@ class CI_Session_files_driver extends CI_Session_driver implements SessionHandle
 	 *
 	 * @return	bool
 	 */
-<<<<<<< HEAD
-	public function close()
-=======
 	#[\ReturnTypeWillChange]
 	 public function close()
->>>>>>> e72e25269d796f01cdc27ada424e4cf2dc2039d1
 	{
 		if (is_resource($this->_file_handle))
 		{
@@ -333,10 +318,7 @@ class CI_Session_files_driver extends CI_Session_driver implements SessionHandle
 	 * @param	string	$session_id	Session ID
 	 * @return	bool
 	 */
-<<<<<<< HEAD
-=======
 	#[\ReturnTypeWillChange]
->>>>>>> e72e25269d796f01cdc27ada424e4cf2dc2039d1
 	public function destroy($session_id)
 	{
 		if ($this->close() === $this->_success)
@@ -378,12 +360,8 @@ class CI_Session_files_driver extends CI_Session_driver implements SessionHandle
 	 * @param	int 	$maxlifetime	Maximum lifetime of sessions
 	 * @return	bool
 	 */
-<<<<<<< HEAD
-	public function gc($maxlifetime)
-=======
 	#[\ReturnTypeWillChange]
 	 public function gc($maxlifetime)
->>>>>>> e72e25269d796f01cdc27ada424e4cf2dc2039d1
 	{
 		if ( ! is_dir($this->_config['save_path']) OR ($directory = opendir($this->_config['save_path'])) === FALSE)
 		{

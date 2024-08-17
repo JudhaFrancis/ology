@@ -16,53 +16,6 @@ class Gallery_model extends CI_Model
       $this->db->where('gallery.id', $id);
       return $this->db->get()->row();
    }
-<<<<<<< HEAD
-   public function uploadImage()
-   {
-      $fileName = slugify($this->input->post('gallery_name', true));
-
-      $config = [
-         'upload_path' => './images/gallery',
-         'file_name' => $fileName . '-' . round(microtime(true) * 10),
-         'allowed_types' => 'jpg|jpeg|gif|png|JPG|PNG',
-         'max_size' => '3000',
-         'max_width' => 0,
-         'max_height' => 0,
-         'overwrite' => true,
-         'file_ext_tolower' => true
-      ];
-
-      $this->load->library('upload', $config);
-
-      if (!$this->upload->do_upload('photo')) {
-         $data['error_string'] = 'Upload error: ' . $this->upload->display_errors('', '');
-         exit();
-      }
-      return $this->upload->data('file_name');
-   }
-
-   public function uploadVideo()
-   {
-      $fileName = slugify($this->input->post('gallery_name', true));
-
-      $config = [
-         'upload_path' => './videos/gallery',
-         'file_name' => $fileName . '-' . round(microtime(true) * 10),
-         'allowed_types' => 'mp4|avi|mov|wmv|flv',
-         'max_size' => '50000', // Set the size limit in kilobytes
-         'overwrite' => true,
-         'file_ext_tolower' => true
-      ];
-
-      $this->load->library('upload', $config);
-
-      if (!$this->upload->do_upload('video')) {
-         $data['error_string'] = 'Upload error: ' . $this->upload->display_errors('', '');
-         exit();
-      }
-      return $this->upload->data('file_name');
-   }
-=======
    public function uploadSingleImage($file_input_name) {
       $uploadedFiles = [];
       $errors = [];
@@ -187,7 +140,6 @@ public function uploadMultipleImages($file_input_name) {
    }
 }
 
->>>>>>> e72e25269d796f01cdc27ada424e4cf2dc2039d1
    
    public function deleteImage($fileName)
    {

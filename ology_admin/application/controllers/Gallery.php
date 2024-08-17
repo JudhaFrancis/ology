@@ -54,7 +54,6 @@ class Gallery extends CI_Controller
       echo json_encode($output);
    }
 
-<<<<<<< HEAD
    public function create()
    {
       if (!$_POST) {
@@ -71,121 +70,70 @@ class Gallery extends CI_Controller
          $data['form_action'] = base_url("gallery/create");
          $data['menu'] = $this->menu->getMenu();
          $data['input'] = $input;
+
          $this->load->view('back/pages/photobooth/gallery_form_post', $data);
       } else {
-
          $data = [
-            'title'  => $this->input->post('title', true),
+            'title' => $this->input->post('title', true),
             'description' => $this->input->post('description', true),
          ];
 
-         // Upload image if availablevb
+         // Upload image if available
          if (!empty($_FILES['photo']['name'])) {
-            $upload = $this->gallery->uploadImage();
-            $data['photo'] = $upload;
+            $upload_photo = $this->gallery->uploadSingleImage('photo')[0];
+            if ($upload_photo) {
+               $data['photo'] = $upload_photo;
+            } else {
+               echo 'Error uploading photo';
+            }
          }
-         
+
+         // Upload video if available
          if (!empty($_FILES['video']['name'])) {
-            $upload_video = $this->gallery->uploadVideo();
-            $data['video'] = $upload_video;
+            $upload_video = $this->gallery->uploadVideo('video');
+            if ($upload_video) {
+               $data['video'] = $upload_video;
+            } else {
+               echo 'Error uploading video';
+            }
          }
-         if (!empty($_FILES['images']['name'])) {
-            $upload_video = $this->gallery->uploadImages();
-            $data['images'] = $upload_video;
+
+         // Debugging: Print the $_FILES array
+         echo '<pre>';
+         print_r($_FILES['images']);
+         echo '</pre>';
+
+         // Upload multiple images if available
+         if (!empty($_FILES['images']['name'][0])) {
+            $upload_images = [];
+
+            if ($upload_images = $this->gallery->uploadMultipleImages('images')) {
+               // Store comma-separated filenames in the main table
+            } else {
+               echo 'Error uploading images';
+            }
          }
 
-         
+         $last_id = $this->my->insert($data);
 
-          $this->my->save($data);
-
+         // Save image filenames to another table if multiple images are uploaded
+         if (isset($upload_images) && !empty($upload_images)) {
+            foreach ($upload_images as $image) {
+               $this->gallery_img->insert([
+                  'gallery_fk_id' => $last_id,
+                  '	images' => $image
+               ]);
+            }
+         }
 
          $this->session->set_flashdata('success', 'Post Added Successfully.');
          redirect(base_url('admin/gallery'));
       }
    }
 
-=======
-   public function create() {
-      if (!$_POST) {
-          $input = (object) $this->gallery->getDefaultValues();
-      } else {
-          $input = (object) $this->input->post(null, true);
-      }
-  
-      $this->form_validation->set_rules('title', 'Title', 'required');
-      $this->form_validation->set_rules('description', 'Description', 'required');
-  
-      if ($this->form_validation->run() == false) {
-          $data['title'] = 'Title Gallery';
-          $data['form_action'] = base_url("gallery/create");
-          $data['menu'] = $this->menu->getMenu();
-          $data['input'] = $input;
-  
-          $this->load->view('back/pages/photobooth/gallery_form_post', $data);
-      } else {
-          $data = [
-              'title' => $this->input->post('title', true),
-              'description' => $this->input->post('description', true),
-          ];
-  
-          // Upload image if available
-          if (!empty($_FILES['photo']['name'])) {
-              $upload_photo = $this->gallery->uploadSingleImage('photo')[0];
-              if ($upload_photo) {
-                  $data['photo'] = $upload_photo;
-              } else {
-                  echo 'Error uploading photo';
-              }
-          }
-  
-          // Upload video if available
-          if (!empty($_FILES['video']['name'])) {
-              $upload_video = $this->gallery->uploadVideo('video');
-              if ($upload_video) {
-                  $data['video'] = $upload_video;
-              } else {
-                  echo 'Error uploading video';
-              }
-          }
-  
-          // Debugging: Print the $_FILES array
-          echo '<pre>';
-          print_r($_FILES['images']);
-          echo '</pre>';
-  
-          // Upload multiple images if available
-          if (!empty($_FILES['images']['name'][0])) {
-              $upload_images=[];
-              
-              if ($upload_images = $this->gallery->uploadMultipleImages('images')) {
-                // Store comma-separated filenames in the main table
-              } else {
-                  echo 'Error uploading images';
-              }
-          }
-  
-          $last_id = $this->my->insert($data);
-  
-          // Save image filenames to another table if multiple images are uploaded
-          if (isset($upload_images) && !empty($upload_images)) {
-              foreach ($upload_images as $image) {
-                  $this->gallery_img->insert([
-                      'gallery_fk_id' => $last_id,
-                      '	images' => $image
-                  ]);
-              }
-          }
-  
-          $this->session->set_flashdata('success', 'Post Added Successfully.');
-          redirect(base_url('admin/gallery'));
-      }
-  }
-  
-  
-  
-  
-  
->>>>>>> e72e25269d796f01cdc27ada424e4cf2dc2039d1
+
+
+
 
 
    public function update($id)

@@ -44,15 +44,9 @@ class My_Model extends CI_Model {
    {
       $this->get_datatables_query();
    
-<<<<<<< HEAD
-      // if($_POST['length'] != -1){
-      //    $this->db->limit($_POST['length'], $_POST['start']);
-      // }
-=======
       if($_POST['length'] != -1){
          $this->db->limit($_POST['length'], $_POST['start']);
       }
->>>>>>> e72e25269d796f01cdc27ada424e4cf2dc2039d1
 
       return $this->db->get()->result();
    }
