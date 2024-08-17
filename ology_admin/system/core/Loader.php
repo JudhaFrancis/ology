@@ -48,6 +48,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @author		EllisLab Dev Team
  * @link		https://codeigniter.com/user_guide/libraries/loader.html
  */
+<<<<<<< HEAD
+=======
+#[\AllowDynamicProperties]
+>>>>>>> e72e25269d796f01cdc27ada424e4cf2dc2039d1
 class CI_Loader {
 
 	// All these are set automatically. Don't mess with them.

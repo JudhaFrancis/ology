@@ -24,10 +24,15 @@
             </div>
                
                 <div class="text-center">
+<<<<<<< HEAD
                     <a href="http://localhost/ology/ology/ology_admin/auth/login">   <button class="btn-sec mt-4" >Admin login</button></a>  
                 </div>
                             
             
+=======
+                    <a href="http://localhost/ology/ology_admin/auth/login">   <button class="btn-sec mt-4" >Admin login</button></a>  
+                </div>
+>>>>>>> e72e25269d796f01cdc27ada424e4cf2dc2039d1
         </div>
        </div>
 
