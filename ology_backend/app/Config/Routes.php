@@ -42,7 +42,6 @@ $routes->get('workshop', 'Home::workshop');
 $routes->get('contact', 'Home::contact');
 $routes->get('members', 'Home::members');
 $routes->get('admin-dashboard', 'Home::admin_ashboard');
-$routes->get('admin-login', 'Home::admin_login');
 $routes->get('calendar', 'Home::calendar');
 $routes->get('career', 'Home::career');
 $routes->get('dashboard', 'Home::dashboard');
