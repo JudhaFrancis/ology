@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Admin</title>
+    <title>Edit Gallery</title>
     <!-- Font Awesome -->
     <link href="<?= base_url("assets/back/vendors/fontawesome-free/css/all.min.css") ?>" rel="stylesheet" type="text/css">
     <!-- Google Fonts -->
@@ -36,7 +36,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col">
-                            <h3 class="page-header">Add Gallery</h3>
+                            <h3 class="page-header"><?= $title ?></h3>
                         </div>
                     </div>
 
@@ -65,11 +65,8 @@
                         <label for="photo" class="col-sm-2 col-form-label">Event Image</label>
                         <div class="col-sm-10">
                             <?= form_upload('photo', '', ['id' => 'photo']) ?>
-                            <?php if ($this->session->flashdata('image_error')): ?>
-                                <small class="form-text text-danger"><?= $this->session->flashdata('image_error') ?></small>
-                            <?php endif ?>
                             <?php if (!empty($input->photo)): ?>
-                                <img src="<?= base_url("images/gallery/$input->photo") ?>" alt="" height="150">
+                                <img src="<?= base_url("images/gallery/{$input->photo}") ?>" alt="" height="150">
                             <?php endif; ?>
                             <br>
                             <!-- Image Preview -->
@@ -81,12 +78,9 @@
                         <label for="video" class="col-sm-2 col-form-label">Video</label>
                         <div class="col-sm-10">
                             <?= form_upload('video', '', ['id' => 'video', 'accept' => 'video/*']) ?>
-                            <?php if ($this->session->flashdata('video_error')): ?>
-                                <small class="form-text text-danger"><?= $this->session->flashdata('video_error') ?></small>
-                            <?php endif ?>
                             <?php if (!empty($input->video)): ?>
                                 <video width="320" height="240" controls>
-                                    <source src="<?= base_url("videos/gallery/$input->video") ?>" type="video/mp4">
+                                    <source src="<?= base_url("uploads/videos/{$input->video}") ?>" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
                             <?php endif; ?>
@@ -103,15 +97,23 @@
                         <label for="images" class="col-sm-2 col-form-label">Images</label>
                         <div class="col-sm-10">
                             <?= form_upload('images[]', '', ['id' => 'images', 'multiple' => true, 'accept' => 'image/*']) ?>
-                            <?php if ($this->session->flashdata('image_error')): ?>
-                                <small class="form-text text-danger"><?= $this->session->flashdata('image_error') ?></small>
-                            <?php endif ?>
                         </div>
                     </div>
 
                     <br>
                     <!-- Images Preview -->
-                    <div id="images-preview" style="padding-top: 20px;"></div>
+                    <div id="images-preview" style="padding-top: 20px;">
+                        <?php if (!empty($input->gallery_images)): ?>
+                            <?php foreach ($input->gallery_images as $image): ?>
+                                <div class="image-container" style="display: inline-block; margin-right: 10px;">
+                                    <img src="<?= base_url("uploads/videos/{$image->images}") ?>" alt="Gallery Image" style="height: 150px;" />
+                                    <button type="button" class="btn btn-danger btn-sm remove-image" data-id="<?= $image->id ?>" style="display: block; margin-top: 5px;">Remove</button>
+                                </div>
+                            <?php endforeach; ?>
+                        <?php else: ?>
+                            <p>No images found.</p>
+                        <?php endif; ?>
+                    </div>
                     <!-- Buttons -->
                     <button type="button" id="add-more-images" style="margin-top: 10px;">Add +</button>
                     <button type="button" id="select-images" style="margin-top: 10px;">Select</button>
@@ -120,7 +122,7 @@
                     <input type="file" id="more-images" name="images[]" style="display: none;" multiple accept="image/*">
 
                     <br>
-                    <a href="<?= base_url('admin/posting') ?>" class="btn btn-sm btn-secondary">Back</a>
+                    <a href="<?= base_url('admin/gallery') ?>" class="btn btn-sm btn-secondary">Back</a>
                     <button type="submit" class="btn btn-sm btn-primary float-right">Save</button>
 
                     <?= form_close() ?>
@@ -205,7 +207,7 @@
                         img.height = 150;
                         img.style.marginRight = '10px';
                         img.style.cursor = 'pointer';
-                        img.dataset.fileName = file.name;  // Store file name for tracking
+                        img.dataset.fileName = file.name; // Store file name for tracking
                         img.addEventListener('click', () => {
                             if (isSelectMode) {
                                 if (selectedImages.some(f => f.name === file.name)) {
@@ -241,7 +243,7 @@
 
         // Handle form submission
         document.getElementById('gallery-form').addEventListener('submit', function(event) {
-            event.preventDefault();  // Prevent the default form submission
+            event.preventDefault(); // Prevent the default form submission
 
             // Create FormData object
             const formData = new FormData(this);
@@ -253,19 +255,34 @@
 
             // Submit form data using Fetch API or another method
             fetch(this.action, {
-                method: 'POST',
-                body: formData
-            })
-            .then(response => response.json())
-            .then(data => {
-                // Handle response data
-                console.log('Success:', data);
-                window.location.href = '<?= base_url('admin/gallery') ?>'; // Redirect on success
-            })
-            .catch(error => {
-                console.error('Error:', error);
+                    method: 'POST',
+                    body: formData
+                })
+                .then(response => response.json())
+                .then(data => {
+                    // Handle response data
+                    console.log('Success:', data);
+                    window.location.href = '<?= base_url('admin/gallery') ?>'; // Redirect on success
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        });
+
+        // Remove image button click handler
+        document.querySelectorAll('.remove-image').forEach(button => {
+            button.addEventListener('click', function() {
+                const imageContainer = this.closest('.image-container');
+                imageContainer.remove();
+
+                // Optionally, send an AJAX request to delete the image from the server
+                const imageId = this.getAttribute('data-id');
+                fetch(`<?= base_url('admin/gallery/delete_image/') ?>${imageId}`, {
+                    method: 'DELETE'
+                });
             });
         });
     </script>
 </body>
+
 </html>
