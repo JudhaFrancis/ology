@@ -5,8 +5,8 @@
         <h1 class="art-h mt-5 mb-3 text-center">Login</h1>
         <div class="col-lg-12"></div>
         <div class="text-center">
-            <!-- <p>Base URL: <?= base_url() ?></p> -->
-            <a href="<?= base_url('adminlogin') ?>">
+            <!-- <p>Base URL: <?= BASEURL ?></p> -->
+            <a href="<?= BASEURL.('admin_login') ?>">
                 <button class="btn-sec mt-4">Admin login</button>
             </a>
         </div>

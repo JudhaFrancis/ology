@@ -89,7 +89,7 @@ class UsersController extends BaseController
 
 	public function isEmailUnique($email)
 	{
-		$data = $this->login_repository->findAllByWhere(['user_login.email_id' => $email])[0] ?? [];
+		$data = $this->login_repository->findAllByWhere(['user.email_id' => $email])[0] ?? [];
 		if (!empty($data)) {
 			$data = false;
 		} else {

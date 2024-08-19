@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Controllers;
+namespace Core\Controllers;
 
 use App\Domain\User\UserLoginRepository;
 use App\Infrastructure\Persistence\Asset\SQLAssetRepository;

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Controllers;
+namespace Core\Controllers;
 class MigrateController extends \CodeIgniter\Controller
 {
         public function index()

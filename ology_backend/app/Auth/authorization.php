@@ -35,7 +35,7 @@ class AUTHORIZATION
             return true;
         }
         $token   = self::decodeToken($token);
-        $uId     = $token->user_id ?? '';
+        // $uId     = $token->user_id ?? '';
         $aId     = $token->authorized_key ?? '';
         $eData   = $token->environment ?? '';
         $expData = $token->expire;

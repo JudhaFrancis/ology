@@ -25,7 +25,7 @@ class SQLUserLoginRepository implements UserLoginRepository {
         } else {
             $this->model->where($this->model->table . '.deleted_at', null);
         }
-        $this->model->groupBy('user_login.user_name');
+        $this->model->groupBy('user_login.username');
         return $this->paginationQuery($ftbl, ['user_id' => 'user_login.user_id','mobile_no' => 'user_login.mobile_no','email_id' => 'user_login.email_id']);
     }
 
@@ -37,7 +37,7 @@ class SQLUserLoginRepository implements UserLoginRepository {
 				->like('first_name', $keyword)
 				->orLike('last_name', $keyword)
 				->orLike('mobileno', $keyword)
-				->orLike('user_name', $keyword)
+				->orLike('username', $keyword)
 				->groupEnd();
 		}
 		return $this->model->paginate(config('App')->paginationPerPage);
@@ -52,8 +52,8 @@ class SQLUserLoginRepository implements UserLoginRepository {
 	}
 
 	function findUserUniqueByField($field, $compareCol, $username, $compareColValue = null) {
-		$select = 'user_id,user_name,user_login.email_id,user_login.mobile_no,staff_fk_id,sponsor_fk_id';
-		$this->model->select($select)->where('user_name', $username)->orWhere('user_login.' . $field, $username);
+		$select = 'user_id,username,user_login.email_id,user_login.mobile_no,staff_fk_id,sponsor_fk_id';
+		$this->model->select($select)->where('username', $username)->orWhere('user_login.' . $field, $username);
 		if (($compareCol == 'staff_fk_id' || $compareCol == 'staff_emp_id') && !empty($compareColValue)) {
 			// $isStaff_emp = (int) $compareColValue ? true : false;
 			// print_r($compareColValue);
@@ -84,21 +84,21 @@ class SQLUserLoginRepository implements UserLoginRepository {
 	}
 
 	public function loginCheck($username, $password) {
-		$this->model->builder()->where(['user_name' => $username, 'password' => $password]);
+		$this->model->builder()->where(['username' => $username, 'password' => $password]);
 		$result = $this->model->asArray()->first();
-		if (!empty($result)) {
-			$this->model->set(['last_login_date' => date('Y-m-d H:i:s')])->update($result['user_id']);
-			unset($result['password']);
-		}
+		// if (!empty($result)) {
+		// 	$this->model->set(['last_login_date' => date('Y-m-d H:i:s')])->update($result['user_id']);
+		// 	unset($result['password']);
+		// }
 		return $result;
 	}
 
 	public function addNewUser($data) {
-		$username = $data->getUser_name();
+		$username = $data->getusername();
 		if (!empty($username)) {
 			$this->model
 				->builder()
-				->where('user_name', $username);
+				->where('username', $username);
 			$res = $this->model->asArray()->first();
 			if (isset($res['user_id'])) {
 				$this->model->update($res['user_id'], $data);

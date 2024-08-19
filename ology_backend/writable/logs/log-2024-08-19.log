@@ -95,3 +95,658 @@ INFO - 2024-08-19 19:05:05 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2024-08-19 19:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-08-19 19:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-08-19 19:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:14:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:17:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-19 19:17:29 --> Undefined variable $api
+in APPPATH\Views\pages\admin-login.php on line 147.
+ 1 APPPATH\Views\pages\admin-login.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'D:\\xampp\\htdocs\\ology\\ology_backend\\app\\Views\\pages\\admin-login.php', 147)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ology\\ology_backend\\app\\Views\\pages\\admin-login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/admin-login', [], true)
+ 5 APPPATH\Controllers\HomeController.php(52): view('pages/admin-login')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\HomeController->admin_login()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-19 19:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-19 19:18:30 --> Undefined variable $api
+in APPPATH\Views\pages\admin-login.php on line 88.
+ 1 APPPATH\Views\pages\admin-login.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'D:\\xampp\\htdocs\\ology\\ology_backend\\app\\Views\\pages\\admin-login.php', 88)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ology\\ology_backend\\app\\Views\\pages\\admin-login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/admin-login', [], true)
+ 5 APPPATH\Controllers\HomeController.php(52): view('pages/admin-login')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\HomeController->admin_login()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-19 19:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-19 19:18:52 --> Undefined variable $api
+in APPPATH\Views\pages\admin-login.php on line 118.
+ 1 APPPATH\Views\pages\admin-login.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'D:\\xampp\\htdocs\\ology\\ology_backend\\app\\Views\\pages\\admin-login.php', 118)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ology\\ology_backend\\app\\Views\\pages\\admin-login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/admin-login', [], true)
+ 5 APPPATH\Controllers\HomeController.php(52): view('pages/admin-login')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\HomeController->admin_login()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-19 19:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-19 19:19:14 --> Undefined variable $api
+in APPPATH\Views\pages\admin-login.php on line 90.
+ 1 APPPATH\Views\pages\admin-login.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'D:\\xampp\\htdocs\\ology\\ology_backend\\app\\Views\\pages\\admin-login.php', 90)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ology\\ology_backend\\app\\Views\\pages\\admin-login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/admin-login', [], true)
+ 5 APPPATH\Controllers\HomeController.php(52): view('pages/admin-login')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\HomeController->admin_login()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-19 19:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-19 19:19:34 --> Undefined variable $api
+in APPPATH\Views\pages\admin-login.php on line 147.
+ 1 APPPATH\Views\pages\admin-login.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'D:\\xampp\\htdocs\\ology\\ology_backend\\app\\Views\\pages\\admin-login.php', 147)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ology\\ology_backend\\app\\Views\\pages\\admin-login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/admin-login', [], true)
+ 5 APPPATH\Controllers\HomeController.php(52): view('pages/admin-login')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\HomeController->admin_login()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-19 19:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-19 19:20:14 --> Undefined variable $api
+in APPPATH\Views\pages\admin-login.php on line 147.
+ 1 APPPATH\Views\pages\admin-login.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'D:\\xampp\\htdocs\\ology\\ology_backend\\app\\Views\\pages\\admin-login.php', 147)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ology\\ology_backend\\app\\Views\\pages\\admin-login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/admin-login', [], true)
+ 5 APPPATH\Controllers\HomeController.php(52): view('pages/admin-login')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\HomeController->admin_login()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-19 19:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-19 19:20:49 --> Undefined variable $api
+in APPPATH\Views\pages\admin_login.php on line 147.
+ 1 APPPATH\Views\pages\admin_login.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'D:\\xampp\\htdocs\\ology\\ology_backend\\app\\Views\\pages\\admin_login.php', 147)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ology\\ology_backend\\app\\Views\\pages\\admin_login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/admin_login', [], true)
+ 5 APPPATH\Controllers\HomeController.php(52): view('pages/admin_login')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\HomeController->admin_login()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-19 19:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-19 19:23:29 --> Undefined variable $api
+in APPPATH\Views\pages\admin_login.php on line 147.
+ 1 APPPATH\Views\pages\admin_login.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'D:\\xampp\\htdocs\\ology\\ology_backend\\app\\Views\\pages\\admin_login.php', 147)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ology\\ology_backend\\app\\Views\\pages\\admin_login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/admin_login', [], true)
+ 5 APPPATH\Controllers\HomeController.php(52): view('pages/admin_login')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\HomeController->admin_login()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-19 19:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-19 19:23:49 --> Undefined variable $api
+in APPPATH\Views\pages\admin_login.php on line 80.
+ 1 APPPATH\Views\pages\admin_login.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'D:\\xampp\\htdocs\\ology\\ology_backend\\app\\Views\\pages\\admin_login.php', 80)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ology\\ology_backend\\app\\Views\\pages\\admin_login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/admin_login', [], true)
+ 5 APPPATH\Controllers\HomeController.php(52): view('pages/admin_login')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\HomeController->admin_login()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-19 19:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-19 19:26:01 --> Undefined variable $api
+in APPPATH\Views\pages\admin_login.php on line 80.
+ 1 APPPATH\Views\pages\admin_login.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'D:\\xampp\\htdocs\\ology\\ology_backend\\app\\Views\\pages\\admin_login.php', 80)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ology\\ology_backend\\app\\Views\\pages\\admin_login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/admin_login', [], true)
+ 5 APPPATH\Controllers\HomeController.php(52): view('pages/admin_login')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\HomeController->admin_login()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-19 19:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-19 19:26:48 --> Undefined variable $api
+in APPPATH\Views\pages\admin_login.php on line 80.
+ 1 APPPATH\Views\pages\admin_login.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'D:\\xampp\\htdocs\\ology\\ology_backend\\app\\Views\\pages\\admin_login.php', 80)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ology\\ology_backend\\app\\Views\\pages\\admin_login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/admin_login', [], true)
+ 5 APPPATH\Controllers\HomeController.php(52): view('pages/admin_login')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\HomeController->admin_login()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-19 19:26:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-19 19:26:56 --> Undefined variable $api
+in APPPATH\Views\pages\admin_login.php on line 80.
+ 1 APPPATH\Views\pages\admin_login.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'D:\\xampp\\htdocs\\ology\\ology_backend\\app\\Views\\pages\\admin_login.php', 80)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ology\\ology_backend\\app\\Views\\pages\\admin_login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/admin_login', [], true)
+ 5 APPPATH\Controllers\HomeController.php(52): view('pages/admin_login')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\HomeController->admin_login()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-19 19:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-19 19:27:21 --> Undefined variable $api
+in APPPATH\Views\pages\admin_login.php on line 80.
+ 1 APPPATH\Views\pages\admin_login.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'D:\\xampp\\htdocs\\ology\\ology_backend\\app\\Views\\pages\\admin_login.php', 80)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ology\\ology_backend\\app\\Views\\pages\\admin_login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/admin_login', [], true)
+ 5 APPPATH\Controllers\HomeController.php(52): view('pages/admin_login')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\HomeController->admin_login()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-19 19:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-19 19:27:32 --> Undefined variable $api
+in APPPATH\Views\pages\admin_login.php on line 107.
+ 1 APPPATH\Views\pages\admin_login.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'D:\\xampp\\htdocs\\ology\\ology_backend\\app\\Views\\pages\\admin_login.php', 107)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ology\\ology_backend\\app\\Views\\pages\\admin_login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/admin_login', [], true)
+ 5 APPPATH\Controllers\HomeController.php(52): view('pages/admin_login')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\HomeController->admin_login()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-19 19:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-19 19:27:37 --> Undefined variable $api
+in APPPATH\Views\pages\admin_login.php on line 107.
+ 1 APPPATH\Views\pages\admin_login.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'D:\\xampp\\htdocs\\ology\\ology_backend\\app\\Views\\pages\\admin_login.php', 107)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ology\\ology_backend\\app\\Views\\pages\\admin_login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pages/admin_login', [], true)
+ 5 APPPATH\Controllers\HomeController.php(52): view('pages/admin_login')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\HomeController->admin_login()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-19 19:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-19 19:33:56 --> Class "App\Controllers\BaseController" not found
+in APPPATH\Controllers\HomeController.php on line 5.
+ 1 SYSTEMPATH\Router\AutoRouter.php(147): include_once()
+ 2 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('/', 'get')
+ 3 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('/')
+ 4 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('/')
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-19 19:36:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-19 19:44:05 --> Undefined array key "username"
+in APPPATH\Controllers\AuthController.php on line 44.
+ 1 APPPATH\Controllers\AuthController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'D:\\xampp\\htdocs\\ology\\ology_backend\\app\\Controllers\\AuthController.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\AuthController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-19 19:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-19 19:44:58 --> Undefined array key "email_id"
+in APPPATH\Controllers\AuthController.php on line 44.
+ 1 APPPATH\Controllers\AuthController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email_id"', 'D:\\xampp\\htdocs\\ology\\ology_backend\\app\\Controllers\\AuthController.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\AuthController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-19 19:45:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-19 19:45:17 --> mysqli_sql_exception: Table 'ologygirls.user_login' doesn't exist in D:\xampp\htdocs\ology\ology_backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ology\ology_backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\ology\ology_backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\ology\ology_backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\ology\ology_backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ology\ology_backend\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ology\ology_backend\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ology\ology_backend\app\Infrastructure\Persistence\User\SQLUserLoginRepository.php(88): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ology\ology_backend\app\Controllers\AuthController.php(49): Core\Infrastructure\Persistence\User\SQLUserLoginRepository->loginCheck('admin@gmail.com', '1eb3aa055e74efd...')
+#8 D:\xampp\htdocs\ology\ology_backend\system\CodeIgniter.php(932): Core\Controllers\AuthController->login()
+#9 D:\xampp\htdocs\ology\ology_backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\AuthController))
+#10 D:\xampp\htdocs\ology\ology_backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ology\ology_backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-08-19 19:45:17 --> Table 'ologygirls.user_login' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `user_login`
+WHERE `user_name` = \'admin@gmail.com\'
+AND `password` = \'1eb3aa055e74efd118825142f6ee3e2c\'
+GROUP BY `user_login`.`user_id`
+ORDER BY `user_login`.`user_id` ASC
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user_login`
+WHERE `user_name` = \'admin@gmail.com\'
+AND `password` = \'1eb3aa055e74efd118825142f6ee3e2c\'
+GROUP BY `user_login`.`user_id`
+ORDER BY `user_login`.`user_id` ASC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user_login`
+WHERE `user_name` = \'admin@gmail.com\'
+AND `password` = \'1eb3aa055e74efd118825142f6ee3e2c\'
+GROUP BY `user_login`.`user_id`
+ORDER BY `user_login`.`user_id` ASC
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user_login`
+WHERE `user_name` = :user_name:
+AND `password` = :password:
+GROUP BY `user_login`.`user_id`
+ORDER BY `user_login`.`user_id` ASC
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Infrastructure\Persistence\User\SQLUserLoginRepository.php(88): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\AuthController.php(49): Core\Infrastructure\Persistence\User\SQLUserLoginRepository->loginCheck('admin@gmail.com', '1eb3aa055e74efd118825142f6ee3e2c')
+ 9 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\AuthController->login()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-19 19:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-19 19:46:34 --> mysqli_sql_exception: Table 'ologygirls.user_login' doesn't exist in D:\xampp\htdocs\ology\ology_backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ology\ology_backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\ology\ology_backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\ology\ology_backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\ology\ology_backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ology\ology_backend\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ology\ology_backend\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ology\ology_backend\app\Infrastructure\Persistence\User\SQLUserLoginRepository.php(88): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ology\ology_backend\app\Controllers\AuthController.php(49): Core\Infrastructure\Persistence\User\SQLUserLoginRepository->loginCheck('admin@gmail.com', '513d203da49f316...')
+#8 D:\xampp\htdocs\ology\ology_backend\system\CodeIgniter.php(932): Core\Controllers\AuthController->login()
+#9 D:\xampp\htdocs\ology\ology_backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\AuthController))
+#10 D:\xampp\htdocs\ology\ology_backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ology\ology_backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-08-19 19:46:34 --> Table 'ologygirls.user_login' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `user_login`
+WHERE `user_name` = \'admin@gmail.com\'
+AND `password` = \'513d203da49f316ec241afa087643a02\'
+GROUP BY `user_login`.`user_id`
+ORDER BY `user_login`.`user_id` ASC
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user_login`
+WHERE `user_name` = \'admin@gmail.com\'
+AND `password` = \'513d203da49f316ec241afa087643a02\'
+GROUP BY `user_login`.`user_id`
+ORDER BY `user_login`.`user_id` ASC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user_login`
+WHERE `user_name` = \'admin@gmail.com\'
+AND `password` = \'513d203da49f316ec241afa087643a02\'
+GROUP BY `user_login`.`user_id`
+ORDER BY `user_login`.`user_id` ASC
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user_login`
+WHERE `user_name` = :user_name:
+AND `password` = :password:
+GROUP BY `user_login`.`user_id`
+ORDER BY `user_login`.`user_id` ASC
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Infrastructure\Persistence\User\SQLUserLoginRepository.php(88): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\AuthController.php(49): Core\Infrastructure\Persistence\User\SQLUserLoginRepository->loginCheck('admin@gmail.com', '513d203da49f316ec241afa087643a02')
+ 9 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\AuthController->login()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-19 19:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-19 19:47:04 --> mysqli_sql_exception: Table 'ologygirls.user_login' doesn't exist in D:\xampp\htdocs\ology\ology_backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ology\ology_backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\ology\ology_backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\ology\ology_backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\ology\ology_backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ology\ology_backend\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ology\ology_backend\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ology\ology_backend\app\Infrastructure\Persistence\User\SQLUserLoginRepository.php(88): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ology\ology_backend\app\Controllers\AuthController.php(49): Core\Infrastructure\Persistence\User\SQLUserLoginRepository->loginCheck('admin@gmail.com', '5691f206a06ba5d...')
+#8 D:\xampp\htdocs\ology\ology_backend\system\CodeIgniter.php(932): Core\Controllers\AuthController->login()
+#9 D:\xampp\htdocs\ology\ology_backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\AuthController))
+#10 D:\xampp\htdocs\ology\ology_backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ology\ology_backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-08-19 19:47:04 --> Table 'ologygirls.user_login' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `user_login`
+WHERE `user_name` = \'admin@gmail.com\'
+AND `password` = \'5691f206a06ba5dbdd0e09253411adf3\'
+GROUP BY `user_login`.`user_id`
+ORDER BY `user_login`.`user_id` ASC
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user_login`
+WHERE `user_name` = \'admin@gmail.com\'
+AND `password` = \'5691f206a06ba5dbdd0e09253411adf3\'
+GROUP BY `user_login`.`user_id`
+ORDER BY `user_login`.`user_id` ASC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user_login`
+WHERE `user_name` = \'admin@gmail.com\'
+AND `password` = \'5691f206a06ba5dbdd0e09253411adf3\'
+GROUP BY `user_login`.`user_id`
+ORDER BY `user_login`.`user_id` ASC
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user_login`
+WHERE `user_name` = :user_name:
+AND `password` = :password:
+GROUP BY `user_login`.`user_id`
+ORDER BY `user_login`.`user_id` ASC
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Infrastructure\Persistence\User\SQLUserLoginRepository.php(88): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\AuthController.php(49): Core\Infrastructure\Persistence\User\SQLUserLoginRepository->loginCheck('admin@gmail.com', '5691f206a06ba5dbdd0e09253411adf3')
+ 9 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\AuthController->login()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-19 19:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-19 19:48:08 --> mysqli_sql_exception: Table 'ologygirls.user_login' doesn't exist in D:\xampp\htdocs\ology\ology_backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ology\ology_backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\ology\ology_backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\ology\ology_backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\ology\ology_backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ology\ology_backend\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ology\ology_backend\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ology\ology_backend\app\Infrastructure\Persistence\User\SQLUserLoginRepository.php(88): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ology\ology_backend\app\Controllers\AuthController.php(49): Core\Infrastructure\Persistence\User\SQLUserLoginRepository->loginCheck('admin@gmail.com', 'd926d7bb9ccf46f...')
+#8 D:\xampp\htdocs\ology\ology_backend\system\CodeIgniter.php(932): Core\Controllers\AuthController->login()
+#9 D:\xampp\htdocs\ology\ology_backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\AuthController))
+#10 D:\xampp\htdocs\ology\ology_backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ology\ology_backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-08-19 19:48:08 --> Table 'ologygirls.user_login' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `user_login`
+WHERE `user_name` = \'admin@gmail.com\'
+AND `password` = \'d926d7bb9ccf46fc04a61bd65d87b9b3\'
+GROUP BY `user_login`.`user_id`
+ORDER BY `user_login`.`user_id` ASC
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user_login`
+WHERE `user_name` = \'admin@gmail.com\'
+AND `password` = \'d926d7bb9ccf46fc04a61bd65d87b9b3\'
+GROUP BY `user_login`.`user_id`
+ORDER BY `user_login`.`user_id` ASC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user_login`
+WHERE `user_name` = \'admin@gmail.com\'
+AND `password` = \'d926d7bb9ccf46fc04a61bd65d87b9b3\'
+GROUP BY `user_login`.`user_id`
+ORDER BY `user_login`.`user_id` ASC
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user_login`
+WHERE `user_name` = :user_name:
+AND `password` = :password:
+GROUP BY `user_login`.`user_id`
+ORDER BY `user_login`.`user_id` ASC
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Infrastructure\Persistence\User\SQLUserLoginRepository.php(88): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\AuthController.php(49): Core\Infrastructure\Persistence\User\SQLUserLoginRepository->loginCheck('admin@gmail.com', 'd926d7bb9ccf46fc04a61bd65d87b9b3')
+ 9 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\AuthController->login()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-19 19:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-19 19:48:54 --> mysqli_sql_exception: Unknown column 'user_name' in 'where clause' in D:\xampp\htdocs\ology\ology_backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ology\ology_backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\ology\ology_backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\ology\ology_backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\ology\ology_backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ology\ology_backend\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ology\ology_backend\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ology\ology_backend\app\Infrastructure\Persistence\User\SQLUserLoginRepository.php(88): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ology\ology_backend\app\Controllers\AuthController.php(49): Core\Infrastructure\Persistence\User\SQLUserLoginRepository->loginCheck('admin@gmail.com', '3c5c7ef80bf7def...')
+#8 D:\xampp\htdocs\ology\ology_backend\system\CodeIgniter.php(932): Core\Controllers\AuthController->login()
+#9 D:\xampp\htdocs\ology\ology_backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\AuthController))
+#10 D:\xampp\htdocs\ology\ology_backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ology\ology_backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-08-19 19:48:54 --> Unknown column 'user_name' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `users`
+WHERE `user_name` = \'admin@gmail.com\'
+AND `password` = \'3c5c7ef80bf7defa378f561073d3ec43\'
+GROUP BY `users`.`user_id`
+ORDER BY `users`.`user_id` ASC
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `user_name` = \'admin@gmail.com\'
+AND `password` = \'3c5c7ef80bf7defa378f561073d3ec43\'
+GROUP BY `users`.`user_id`
+ORDER BY `users`.`user_id` ASC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `user_name` = \'admin@gmail.com\'
+AND `password` = \'3c5c7ef80bf7defa378f561073d3ec43\'
+GROUP BY `users`.`user_id`
+ORDER BY `users`.`user_id` ASC
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user_name` = :user_name:
+AND `password` = :password:
+GROUP BY `users`.`user_id`
+ORDER BY `users`.`user_id` ASC
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Infrastructure\Persistence\User\SQLUserLoginRepository.php(88): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\AuthController.php(49): Core\Infrastructure\Persistence\User\SQLUserLoginRepository->loginCheck('admin@gmail.com', '3c5c7ef80bf7defa378f561073d3ec43')
+ 9 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\AuthController->login()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-19 19:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:49:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-19 19:49:54 --> mysqli_sql_exception: Unknown column 'users.user_id' in 'order clause' in D:\xampp\htdocs\ology\ology_backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ology\ology_backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\ology\ology_backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\ology\ology_backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\ology\ology_backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ology\ology_backend\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ology\ology_backend\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ology\ology_backend\app\Infrastructure\Persistence\User\SQLUserLoginRepository.php(88): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ology\ology_backend\app\Controllers\AuthController.php(49): Core\Infrastructure\Persistence\User\SQLUserLoginRepository->loginCheck('admin@gmail.com', '264388973aaa9b2...')
+#8 D:\xampp\htdocs\ology\ology_backend\system\CodeIgniter.php(932): Core\Controllers\AuthController->login()
+#9 D:\xampp\htdocs\ology\ology_backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\AuthController))
+#10 D:\xampp\htdocs\ology\ology_backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ology\ology_backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-08-19 19:49:54 --> Unknown column 'users.user_id' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `users`
+WHERE `username` = \'admin@gmail.com\'
+AND `password` = \'264388973aaa9b2f9eb2aa84a9c7382e\'
+GROUP BY `users`.`user_id`
+ORDER BY `users`.`user_id` ASC
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `username` = \'admin@gmail.com\'
+AND `password` = \'264388973aaa9b2f9eb2aa84a9c7382e\'
+GROUP BY `users`.`user_id`
+ORDER BY `users`.`user_id` ASC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `username` = \'admin@gmail.com\'
+AND `password` = \'264388973aaa9b2f9eb2aa84a9c7382e\'
+GROUP BY `users`.`user_id`
+ORDER BY `users`.`user_id` ASC
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `username` = :username:
+AND `password` = :password:
+GROUP BY `users`.`user_id`
+ORDER BY `users`.`user_id` ASC
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Infrastructure\Persistence\User\SQLUserLoginRepository.php(88): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\AuthController.php(49): Core\Infrastructure\Persistence\User\SQLUserLoginRepository->loginCheck('admin@gmail.com', '264388973aaa9b2f9eb2aa84a9c7382e')
+ 9 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\AuthController->login()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-19 19:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-19 19:50:48 --> mysqli_sql_exception: Unknown column 'users.user_id' in 'order clause' in D:\xampp\htdocs\ology\ology_backend\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ology\ology_backend\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\ology\ology_backend\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\ology\ology_backend\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\ology\ology_backend\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ology\ology_backend\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ology\ology_backend\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ology\ology_backend\app\Infrastructure\Persistence\User\SQLUserLoginRepository.php(88): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ology\ology_backend\app\Controllers\AuthController.php(49): Core\Infrastructure\Persistence\User\SQLUserLoginRepository->loginCheck('admin@gmail.com', '2124b697f84f73b...')
+#8 D:\xampp\htdocs\ology\ology_backend\system\CodeIgniter.php(932): Core\Controllers\AuthController->login()
+#9 D:\xampp\htdocs\ology\ology_backend\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\AuthController))
+#10 D:\xampp\htdocs\ology\ology_backend\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ology\ology_backend\index.php(101): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-08-19 19:50:48 --> Unknown column 'users.user_id' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `users`
+WHERE `username` = \'admin@gmail.com\'
+AND `password` = \'2124b697f84f73b7769fea74966a347a\'
+GROUP BY `users`.`user_id`
+ORDER BY `users`.`user_id` ASC
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `username` = \'admin@gmail.com\'
+AND `password` = \'2124b697f84f73b7769fea74966a347a\'
+GROUP BY `users`.`user_id`
+ORDER BY `users`.`user_id` ASC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `username` = \'admin@gmail.com\'
+AND `password` = \'2124b697f84f73b7769fea74966a347a\'
+GROUP BY `users`.`user_id`
+ORDER BY `users`.`user_id` ASC
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `username` = :username:
+AND `password` = :password:
+GROUP BY `users`.`user_id`
+ORDER BY `users`.`user_id` ASC
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Infrastructure\Persistence\User\SQLUserLoginRepository.php(88): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\AuthController.php(49): Core\Infrastructure\Persistence\User\SQLUserLoginRepository->loginCheck('admin@gmail.com', '2124b697f84f73b7769fea74966a347a')
+ 9 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\AuthController->login()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-19 19:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-19 19:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-19 19:56:14 --> session_start(): Ignoring session_start() because a session is already active
+in APPPATH\Controllers\AuthController.php on line 55.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start(): Ignoring session_start() because a session is already active', 'D:\\xampp\\htdocs\\ology\\ology_backend\\app\\Controllers\\AuthController.php', 55)
+ 2 APPPATH\Controllers\AuthController.php(55): session_start()
+ 3 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\AuthController->login()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\AuthController))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-19 19:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-19 19:56:34 --> session_start(): Ignoring session_start() because a session is already active
+in APPPATH\Controllers\AuthController.php on line 55.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start(): Ignoring session_start() because a session is already active', 'D:\\xampp\\htdocs\\ology\\ology_backend\\app\\Controllers\\AuthController.php', 55)
+ 2 APPPATH\Controllers\AuthController.php(55): session_start()
+ 3 SYSTEMPATH\CodeIgniter.php(932): Core\Controllers\AuthController->login()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Core\Controllers\AuthController))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(101): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-19 19:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
