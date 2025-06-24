@@ -21,42 +21,27 @@ class EmailConetentGenerator
 	{
 		$this->UtilityModel = new UtilityModel();
 		$this->login_repository = Services::UserLoginRepository();
-        $this->eventLocationRepo=new SQLEvent_locationRepository();
-        $this->allianceRepo=new SQLAlliance_partnerRepository();
 	}
 	public function genContentSentEmail($id, $data, $attachment = [], $sendEmail = true)
 	{
 		$c = $this->generateEmail($id, $data);
 		$email = new Email();
-		//pdf header replace
 		$template = (array) $c['template'];
-		
-		return $email->mapWithConent($c['template'], $c['combineData'], $sendEmail, '', $attachment);
+		return $email->mapWithContent($c['template'], $c['combineData'], $sendEmail, '', $attachment);
 	}
 
 	public function generateEmail($id, $data)
 	{
-		//$data        = $this->getDataFromUrl('json');
-		$template = $this->UtilityModel->getDataById('email_template', array('id' => $id));
-		
+		$template = $this->UtilityModel->getDataById('email_template', array('id' => $id));	
 		$combineData = array();
 		if (!empty($template)) {
-			switch ((int) $template->module_id) {
-				case 1:
-					$combineData = $this->getLocationData($data['event_location_code']);
-                    $combineData['email_id']=$combineData['user_name'];				
-					break;
-				case 2:
-					$combineData = $this->allianceData($data['alliance_code']);
-                    $combineData['email_id']=$combineData['user_name'];				
-					break;
-			}
-	
+			$combineData['email_id'] =$data['email_id'];
 			$template->to = $combineData['email_id'] ?? ($template->to ?? '') ?? '';
 			$combineData['date'] = date('d M Y');
+			$combineData['first_name'] =$data['name'];
+			$template->emailName =  $combineData['first_name'];
+			return ["combineData" => $combineData, 'module_id' => $template->module_id, "template" => $template]; // to , cc body, pdf_content
 		}
-		$template->emailName =  $combineData['first_name'] ?? '';
-		return ["combineData" => $combineData, 'module_id' => $template->module_id, "template" => $template]; // to , cc body, pdf_content
 	}
 
 	private function getLocationData($event_location_code)

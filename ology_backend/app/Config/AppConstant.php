@@ -33,5 +33,6 @@ class AppConstant extends BaseConfig
 	public $staffLeaveUploadPath = 'uploads/staff/leave/';
 	public $headConstValue = ['basic', 'is_epf', 'is_esi', 'saving', 'allowance', 'loan', 'slot', 'increment', 'is_welfare', 'hra_percentage_value', 'deduction', 'year_of_experience'];
 }
-define('APPKEY', 'ae5ead48-a87e-4b54-9489-5540605ff2a6');
-define('AUTHKEY', 'e6cQDjQT6v73YazavPBIkjOXjRnocMlFv2CFpqxi9e15EuWg8y');
+//define('APPKEY', 'ae5ead48-a87e-4b54-9489-5540605ff2a6');
+//define('AUTHKEY', 'e6cQDjQT6v73YazavPBIkjOXjRnocMlFv2CFpqxi9e15EuWg8y');
+//define('OLOGYADMIN', 'https://admin.ologygirls.com/');

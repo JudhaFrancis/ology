@@ -28,11 +28,11 @@ class Auth implements FilterInterface
             'statusCode' => 401,
             'message'    => 'illegal Access',
             'result'     => '');
-        if (ENVIRONMENT == 'production') {
-            if (!\AUTHORIZATION::checkAuthorized()) {
-                return Services::response()->setStatusCode(401)->setJSON($message);
-            }
-        }
+        // if (ENVIRONMENT == 'production') {
+        //     if (!\AUTHORIZATION::checkAuthorized()) {
+        //         return Services::response()->setStatusCode(401)->setJSON($message);
+        //     }
+        // }
     }
 
     //--------------------------------------------------------------------

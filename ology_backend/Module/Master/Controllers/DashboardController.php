@@ -1,5 +1,5 @@
 <?php
-namespace Core\Controllers;
+namespace App\Controllers;
 use Core\Models\Utility\UtilityModel;
 use Core\Controllers\BaseController;
 

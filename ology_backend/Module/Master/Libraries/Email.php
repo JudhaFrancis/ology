@@ -4,7 +4,6 @@ namespace App\Libraries;
 
 use Core\Libraries\PDFMaker;
 use Core\Models\Utility\UtilityModel;
-use Mail\Infrastructure\Persistence\Email\SQLEmail_listRepository;
 
 class Email {
 
@@ -13,11 +12,12 @@ class Email {
 	private $userData;
 	public function __construct() {
 		self::$email = \Config\Services::email();
-		// $this->repository = new SQLEmail_listRepository();
 		$this->userData = \AUTHORIZATION::getTokenData();
 	}
 
 	public function send($data) {
+		// print_r($data);
+		// return;
 		$to = isset($data['to']) ? $data['to'] : null;
 		$cc = isset($data['cc']) ? $data['cc'] : null;
 		$bcc = isset($data['bcc']) ? $data['bcc'] : null;
@@ -38,8 +38,6 @@ class Email {
 			$data['resent_on'] = date('Y-m-d H:i:s');
 		}
 		// echo "test mail :".TEST_EMAIL;
-		// print_r(TEST_EMAIL);
-		// return;
 		$email = \Config\Services::email();
 		$email->clear(true);
 		$email->setFrom(MAIL_FROM_USER, MAIL_FROM_USER_NAME);
@@ -54,7 +52,14 @@ class Email {
 		if (!empty($bcc) && ENVIRONMENT == 'production') {
 			$email->setBCC($bcc);
 		}
-
+		$attachment = explode(',', $data['attachment']);
+		if (isset($attachment)) {
+            foreach ($attachment as $key => $v) {
+                $name = isset($v['name']) && !empty($v['name']) ? $v['name'] : 'doc';
+                $mime = checkValue($v, 'mime') ? $v['mime'] : '';
+                $email->attach($v, 'attachment', $name . '.pdf', $mime);
+            }
+        }
 		$email->setSubject($subject);
 		$email->setMessage($mailMessage);
 		$result = $email->send(true) ? 1 : 3; //suceesss / failed
@@ -62,8 +67,7 @@ class Email {
 		// print($result);
 		return $result;
 	}
-	// map with Content
-	public function mapWithConent($template, $combineData, $send = false, $email_id = '', $attachment = []) {
+	public function mapWithContent($template, $combineData, $send = false, $email_id = '', $attachment = []) {
 		$templateId = is_scalar($template) ? ((int) $template ? $template : 0) : 0;
 		$combinedResult = (array) $combineData;
 		

@@ -49,7 +49,7 @@ class BaseController extends Controller {
 		parent::initController($request, $response, $logger);
 		$AuthObj = new \AUTHORIZATION(\Config\Services::request());
 		// parent::getReqMethod();
-		helper('App/helpers/Log');
+		helper('Core/helpers/Log');
 		//--------------------------------------------------------------------
 		// Preload any models, libraries, etc, here.
 		//--------------------------------------------------------------------

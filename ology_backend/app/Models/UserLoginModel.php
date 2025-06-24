@@ -14,7 +14,7 @@ class UserLoginModel extends Model
         $this->appConstant = new \Config\AppConstant();
     }
     protected $primaryKey     = 'user_id';
-    protected $table          = 'users';
+    protected $table          = 'user_login';
     protected $returnType     = 'Core\Domain\User\UserLogin';
     protected $useSoftDeletes = true;
     protected $allowedFields  = ['user_name', 'password', 'email_id', 'forgotPassword', 'resetPassword', 'mobile_no', 'last_login_date', 'profile_id', 'lname', 'fname', 'avatar', 'deleted_at', 'app_version', 'temp_block', 'block_reason', 'last_active_session', 'ref_fk_id', 'member_fk_id'];

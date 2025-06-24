@@ -20,20 +20,17 @@ class BlogModel extends Model
     protected $useSoftDeletes = false;
     protected $allowedFields = ['title','author','description','published_date', 'photo', 'status'];
     protected $useTimestamps = false;
-    protected $beforeInsert = ['beforeSave'];
-    protected $beforeUpdate = ['beforeSave'];
-    protected $afterFind = ['addImageRealPath'];
     protected $allowCallbacks = true;
 
-    public function beforeSave(array $data)
-    {
-        $data['data'] = modelFileHandler($data['data'], $this->imageColum);
-        return $data;
-    }
-    protected function addImageRealPath(array $data)
-    {
-        $data['data'] = addImageRealPath($data['data'], $this->imageColum);
-        return $data;
-    }
+    // public function beforeSave(array $data)
+    // {
+    //     $data['data'] = modelFileHandler($data['data'], $this->imageColum);
+    //     return $data;
+    // }
+    // protected function addImageRealPath(array $data)
+    // {
+    //     $data['data'] = addImageRealPath($data['data'], $this->imageColum);
+    //     return $data;
+    // }
 
 }

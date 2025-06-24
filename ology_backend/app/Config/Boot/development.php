@@ -30,14 +30,15 @@ defined('SHOW_DEBUG_BACKTRACE') || define('SHOW_DEBUG_BACKTRACE', true);
 | items. It can always be used within your own application too.
  */
 defined('CI_DEBUG') || define('CI_DEBUG', true);
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
-define('MASTER_DB_NAME', 'ologygirls');
+define('DB_HOST','15.207.55.106');
+define('DB_USERNAME', 'agoo_dev');
+define('DB_PASSWORD', 'AgooAdmin@321');
+define('MASTER_DB_NAME', 'ology_db');
 define('MAIL_HOST', 'smtp.gmail.com');
-define('MAIL_USER', 'agootechnology@gmail.com');
-define('MAIL_FROM_USER_NAME', 'PSGU');
-define('MAIL_FROM_USER', 'PSGU');
-define('MAIL_PASSWORD', 'uajbdlcugpodflds');
+define('MAIL_USER', 'itoitesting01@gmail.com');
+define('MAIL_FROM_USER_NAME', 'OLOGYGIRLS');
+define('MAIL_FROM_USER', 'OLOGYGIRLS');
+define('MAIL_PASSWORD', 'zakemtyiwhafbnlb');
 define('MAIL_PORT', 465);
 define('MAIL_PROTOCOL', 'smtp');
-define('TEST_EMAIL', 'itoitesting01@gmail.com');
+define('TEST_EMAIL', 'agootechnology@gmail.com');

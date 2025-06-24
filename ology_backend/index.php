@@ -24,7 +24,7 @@ $isHttps =
 $protocol = $isHttps ? "https://" : "http://";
 $base     = $protocol . $_SERVER['HTTP_HOST'];
 $base .= str_replace(basename($_SERVER['SCRIPT_NAME']), "", $_SERVER['SCRIPT_NAME']);
-define("ENVIRONMENT", "development");
+define("ENVIRONMENT", "production");
 define('BASEURL', $base);
 
 // Check PHP version.

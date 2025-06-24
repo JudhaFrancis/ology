@@ -3,10 +3,12 @@
 namespace Core\Controllers\Gallery;
 
 use App\Domain\Gallery\Gallery;
+use App\Domain\Gallery\Gallery_video;
 use App\Domain\Gallery\Gallery_img;
 use Core\Controllers\BaseController;
 use Core\Controllers\DMLController;
 use App\Infrastructure\Persistence\Gallery\SQLGalleryRepository;
+use App\Infrastructure\Persistence\Gallery\SQLGallery_videoRepository;
 use App\Infrastructure\Persistence\Gallery\SQLGallery_imgRepository;
 use Core\Models\Utility\UtilityModel;   
 
@@ -14,6 +16,7 @@ class GalleryController extends BaseController
 {
     use DMLController;
     private $Gallery_Repo;
+    private $Gallery_video_Repo;
     private $Gallery_Img_Repo;
 
     public function __construct()
@@ -21,6 +24,7 @@ class GalleryController extends BaseController
         helper('Core\Helpers\View');
         $this->initializeFunction();
         $this->Gallery_Repo = new SQLGalleryRepository();
+        $this->Gallery_video_Repo = new SQLGallery_videoRepository();
         $this->Gallery_Img_Repo = new SQLGallery_imgRepository();
     }
 
@@ -36,6 +40,7 @@ class GalleryController extends BaseController
     {
         $reqData = $this->Gallery_Repo->findById($id);
         $reqData['gallery_img'] = $this->Gallery_Img_Repo->findAllByWhere(['gallery_fk_id'=>$reqData['id']])??[];
+        $reqData['gallery_video'] = $this->Gallery_video_Repo->findAllByWhere(['gallery_fk_id'=>$reqData['id']])??[];
         return view('include/header') 
             . view('pages/gallery', ['reqData' => $reqData]) 
             . view('include/footer');
